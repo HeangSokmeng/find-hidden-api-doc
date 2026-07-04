@@ -33,10 +33,6 @@
     "/api-docs?format=json",
     "/api-docs.json?format=json",
     "/api-docs.yaml?format=yaml",
-
-    # ============================================================
-    # SWAGGER UI VARIANTS
-    # ============================================================
     "/swagger-ui.html",
     "/swagger-ui/",
     "/swagger-ui/index.html",
@@ -70,10 +66,6 @@
     "/swaggerui/swagger-ui-standalone-preset.js",
     "/swaggerui/swagger-ui-bundle.js",
     "/swaggerui/swagger-ui.css",
-
-    # ============================================================
-    # /SWAGGER PREFIX
-    # ============================================================
     "/swagger",
     "/swagger/",
     "/swagger/index.html",
@@ -120,10 +112,6 @@
     "/swagger/docs/v2/",
     "/swagger/docs/v3",
     "/swagger/docs/v3/",
-
-    # ============================================================
-    # OPENAPI ROOT VARIANTS
-    # ============================================================
     "/openapi",
     "/openapi/",
     "/openapi/v1",
@@ -160,10 +148,6 @@
     "/.well-known/api-docs",
     "/.well-known/api-docs.json",
     "/.well-known/swagger.json",
-
-    # ============================================================
-    # VERSIONED SWAGGER (SPRING/JAVA COMMON)
-    # ============================================================
     "/v1/api-docs",
     "/v1/swagger.json",
     "/v1/swagger.yaml",
@@ -274,10 +258,6 @@
     "/v2023/openapi.json",
     "/v2024/swagger.json",
     "/v2024/openapi.json",
-
-    # ============================================================
-    # /API PREFIX VARIANTS
-    # ============================================================
     "/api/swagger.json",
     "/api/swagger.yaml",
     "/api/swagger.yml",
@@ -512,10 +492,6 @@
     "/api/v1/schema",
     "/api/v2/schema",
     "/api/v3/schema",
-
-    # ============================================================
-    # DOCS / DOCUMENTATION
-    # ============================================================
     "/docs",
     "/docs/",
     "/docs/swagger.json",
@@ -640,10 +616,6 @@
     "/documentation/swagger-ui",
     "/documentation/swagger-ui/",
     "/documentation/swagger-ui.html",
-
-    # ============================================================
-    # REDOC EXTENSIVE
-    # ============================================================
     "/redoc",
     "/redoc/",
     "/redoc.html",
@@ -669,10 +641,6 @@
     "/rapidoc.html",
     "/rapidoc.json",
     "/rapidoc.yaml",
-
-    # ============================================================
-    # REFERENCE EXTENSIVE
-    # ============================================================
     "/reference",
     "/reference/",
     "/reference.json",
@@ -694,10 +662,6 @@
     "/reference/redoc.html",
     "/reference/docs",
     "/reference/docs/",
-
-    # ============================================================
-    # SPEC / APIDOC NAMING
-    # ============================================================
     "/spec",
     "/spec.json",
     "/spec.yaml",
@@ -767,10 +731,6 @@
     "/apidocs/redoc.html",
     "/apidocs/docs",
     "/apidocs/docs/",
-
-    # ============================================================
-    # SCHEMA EXTENSIVE
-    # ============================================================
     "/schema",
     "/schema/",
     "/schema.json",
@@ -800,10 +760,6 @@
     "/schema/docs/",
     "/schema.json?format=json",
     "/schema.yaml?format=yaml",
-
-    # ============================================================
-    # REST / PUBLIC / IDM PREFIXES
-    # ============================================================
     "/rest/swagger.json",
     "/rest/swagger-ui.html",
     "/rest/api-docs",
@@ -889,10 +845,6 @@
     "/idm/schema",
     "/idm/schema.json",
     "/classicapi/doc/",
-
-    # ============================================================
-    # SWAGGER-RESOURCES (SPRING BOOT)
-    # ============================================================
     "/swagger-resources",
     "/swagger-resources/",
     "/swagger-resources/configuration/ui",
@@ -910,10 +862,6 @@
     "/swagger-resources?group=v1",
     "/swagger-resources?group=v2",
     "/swagger-resources?group=v3",
-
-    # ============================================================
-    # WEBJARS
-    # ============================================================
     "/webjars/swagger-ui/index.html",
     "/webjars/swagger-ui/",
     "/webjars/",
@@ -928,10 +876,6 @@
     "/webjars/springfox-swagger-ui",
     "/webjars/springfox-swagger-ui/",
     "/webjars/springfox-swagger-ui/swagger-ui.html",
-
-    # ============================================================
-    # GATEWAY / ADMIN / MANAGEMENT
-    # ============================================================
     "/gateway/swagger-ui.html",
     "/gateway/v2/api-docs",
     "/gateway/",
@@ -1031,10 +975,6 @@
     "/admin/redoc.html",
     "/admin/schema",
     "/admin/schema.json",
-
-    # ============================================================
-    # OBSCURE / OBFUSCATED
-    # ============================================================
     "/__swagger__/",
     "/__swagger__",
     "/__swagger__/swagger.json",
@@ -1099,10 +1039,6 @@
     "/secret/v1/swagger.json",
     "/secret/v2/swagger.json",
     "/secret/v3/swagger.json",
-
-    # ============================================================
-    # ENVIRONMENT PREFIXES (DEV/STAGING/PROD/TEST/BETA)
-    # ============================================================
     "/dev/swagger.json",
     "/dev/",
     "/dev/swagger.yaml",
@@ -1191,10 +1127,6 @@
     "/local/docs",
     "/local/v1/swagger.json",
     "/local/v2/swagger.json",
-
-    # ============================================================
-    # GRAPHQL ADJACENTS
-    # ============================================================
     "/graphql/schema.json",
     "/graphiql",
     "/graphql/",
@@ -1231,10 +1163,6 @@
     "/console",
     "/console/",
     "/console/api-explorer",
-
-    # ============================================================
-    # NODE/EXPRESS/NESTJS CONVENTIONS
-    # ============================================================
     "/api-json",
     "/api/api-json",
     "/docs-json",
@@ -1282,10 +1210,6 @@
     "/swagger.json?cors=true",
     "/swagger.yaml?format=yaml",
     "/swagger.yml?format=yaml",
-
-    # ============================================================
-    # FASTAPI / PYTHON FRAMEWORKS
-    # ============================================================
     "/docs?format=json",
     "/docs/openapi.json?format=json",
     "/redoc?format=json",
@@ -1294,10 +1218,6 @@
     "/docs/swagger-ui-standalone-preset.js",
     "/docs/swagger-ui-bundle.js",
     "/docs/swagger-ui.css",
-
-    # ============================================================
-    # DJANGO REST FRAMEWORK
-    # ============================================================
     "/api/schema/",
     "/api/schema/?format=json",
     "/api/schema/?format=yaml",
@@ -1306,27 +1226,15 @@
     "/api/schema/swagger-ui/",
     "/api/schema/redoc",
     "/api/schema/redoc/",
-
-    # ============================================================
-    # LARAVEL / PHP
-    # ============================================================
     "/api/documentation",
     "/api/documentation/",
     "/api/documentation.json",
-
-    # ============================================================
-    # RAILS / RUBY
-    # ============================================================
     "/api/swagger_doc",
     "/api/swagger_doc/",
     "/api/swagger_doc.json",
     "/swagger_doc",
     "/swagger_doc/",
     "/swagger_doc.json",
-
-    # ============================================================
-    # GO / GIN / ECHO
-    # ============================================================
     "/swagger/index.html",
     "/swagger/doc.json",
     "/swagger/doc.yaml",
@@ -1334,10 +1242,6 @@
     "/swagger/docs.json",
     "/swagger/docs.yaml",
     "/swagger/docs.yml",
-
-    # ============================================================
-    # ASP.NET CORE
-    # ============================================================
     "/swagger/v1/swagger.yaml",
     "/swagger/v2/swagger.yaml",
     "/swagger/v3/swagger.yaml",
@@ -1347,10 +1251,6 @@
     "/swagger/v1/openapi.yaml",
     "/swagger/v2/openapi.yaml",
     "/swagger/v3/openapi.yaml",
-
-    # ============================================================
-    # SPRING BOOT EXTENSIVE
-    # ============================================================
     "/v2/api-docs?group=default",
     "/v2/api-docs?group=public",
     "/v2/api-docs?group=internal",
@@ -1365,10 +1265,6 @@
     "/v3/api-docs?group=v3",
     "/v3/api-docs/swagger-config",
     "/v3/api-docs/swagger-config.json",
-
-    # ============================================================
-    # KONG GATEWAY
-    # ============================================================
     "/kong/swagger.json",
     "/kong/openapi.json",
     "/kong/api-docs",
@@ -1376,10 +1272,6 @@
     "/kong/v1/swagger.json",
     "/kong/v2/swagger.json",
     "/kong/v3/swagger.json",
-
-    # ============================================================
-    # KUBERNETES / MICROSERVICES
-    # ============================================================
     "/service/swagger.json",
     "/service/openapi.json",
     "/service/api-docs",
@@ -1400,10 +1292,6 @@
     "/svc/docs",
     "/svc/v1/swagger.json",
     "/svc/v2/swagger.json",
-
-    # ============================================================
-    # HEALTH / INFO ENDPOINTS
-    # ============================================================
     "/info",
     "/info/",
     "/info.json",
@@ -1413,19 +1301,11 @@
     "/health/info",
     "/health/info/",
     "/health/info.json",
-
-    # ============================================================
-    # WSDL / SOAP (API RECON ADJACENT)
-    # ============================================================
     "/wsdl",
     "/wsdl/",
     "/wsdl?wsdl",
     "/service?wsdl",
     "/services?wsdl",
-
-    # ============================================================
-    # MISCELLANEOUS FRAMEWORK-SPECIFIC
-    # ============================================================
     "/explorer",
     "/explorer/",
     "/explorer/swagger.json",
@@ -1446,10 +1326,6 @@
     "/api-explorer/v1/swagger.json",
     "/api-explorer/v2/swagger.json",
     "/api-explorer/v3/swagger.json",
-
-    # ============================================================
-    # QUARKUS / MICRONAUT
-    # ============================================================
     "/q/swagger-ui",
     "/q/swagger-ui/",
     "/q/swagger-ui/index.html",
@@ -1465,29 +1341,17 @@
     "/q/v1/swagger.json",
     "/q/v2/swagger.json",
     "/q/v3/swagger.json",
-
-    # ============================================================
-    # MICRONAUT
-    # ============================================================
     "/swagger-ui",
     "/swagger-ui/",
     "/swagger-ui/index.html",
     "/swagger-ui/swagger-ui.css",
     "/swagger-ui/swagger-ui-bundle.js",
-
-    # ============================================================
-    # FLASK-RESTX / FLASGGER
-    # ============================================================
     "/swaggerui",
     "/swaggerui/",
     "/swaggerui/index.html",
     "/swaggerui/swagger-ui-standalone-preset.js",
     "/swaggerui/swagger-ui-bundle.js",
     "/swaggerui/swagger-ui.css",
-
-    # ============================================================
-    # TYPESCRIPT / NEXTJS / NUXT
-    # ============================================================
     "/api/openapi",
     "/api/openapi/",
     "/api/openapi.json",
@@ -1496,20 +1360,12 @@
     "/api/openapi/v1",
     "/api/openapi/v2",
     "/api/openapi/v3",
-
-    # ============================================================
-    # POSTMAN / INSOMNIA COLLECTIONS
-    # ============================================================
     "/postman-collection.json",
     "/postman_collection.json",
     "/postman.json",
     "/insomnia.json",
     "/collection.json",
     "/api-collection.json",
-
-    # ============================================================
-    # CASE VARIANTS (case-sensitive frameworks)
-    # ============================================================
     "/Swagger.json",
     "/Swagger.yaml",
     "/OpenAPI.json",
@@ -1519,10 +1375,6 @@
     "/Swagger-UI",
     "/Swagger-UI/",
     "/Swagger-UI.html",
-
-    # ============================================================
-    # TRAILING SLASH VARIANTS
-    # ============================================================
     "/swagger.json/",
     "/swagger.yaml/",
     "/swagger.yml/",
