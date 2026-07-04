@@ -1,1533 +1,1533 @@
-    "/swagger.json",
-    "/swagger.yaml",
-    "/swagger.yml",
-    "/openapi.json",
-    "/openapi.yaml",
-    "/openapi.yml",
-    "/api-docs",
-    "/api-docs.json",
-    "/api-docs.yaml",
-    "/api-docs/",
-    "/api-docs/swagger.json",
-    "/api-docs/swagger.yaml",
-    "/api-docs/openapi.json",
-    "/api-docs/openapi.yaml",
-    "/api-docs/v1",
-    "/api-docs/v1/",
-    "/api-docs/v1/swagger.json",
-    "/api-docs/v1/openapi.json",
-    "/api-docs/v2",
-    "/api-docs/v2/",
-    "/api-docs/v2/swagger.json",
-    "/api-docs/v2/openapi.json",
-    "/api-docs/v3",
-    "/api-docs/v3/",
-    "/api-docs/v3/swagger.json",
-    "/api-docs/v3/openapi.json",
-    "/api-docs?group=default",
-    "/api-docs?group=public",
-    "/api-docs?group=internal",
-    "/api-docs?group=v1",
-    "/api-docs?group=v2",
-    "/api-docs?group=v3",
-    "/api-docs?format=json",
-    "/api-docs.json?format=json",
-    "/api-docs.yaml?format=yaml",
+/swagger.json
+/swagger.yaml
+/swagger.yml
+/openapi.json
+/openapi.yaml
+/openapi.yml
+/api-docs
+/api-docs.json
+/api-docs.yaml
+/api-docs/
+/api-docs/swagger.json
+/api-docs/swagger.yaml
+/api-docs/openapi.json
+/api-docs/openapi.yaml
+/api-docs/v1
+/api-docs/v1/
+/api-docs/v1/swagger.json
+/api-docs/v1/openapi.json
+/api-docs/v2
+/api-docs/v2/
+/api-docs/v2/swagger.json
+/api-docs/v2/openapi.json
+/api-docs/v3
+/api-docs/v3/
+/api-docs/v3/swagger.json
+/api-docs/v3/openapi.json
+/api-docs?group=default
+/api-docs?group=public
+/api-docs?group=internal
+/api-docs?group=v1
+/api-docs?group=v2
+/api-docs?group=v3
+/api-docs?format=json
+/api-docs.json?format=json
+/api-docs.yaml?format=yaml
 
-    # ============================================================
-    # SWAGGER UI VARIANTS
-    # ============================================================
-    "/swagger-ui.html",
-    "/swagger-ui/",
-    "/swagger-ui/index.html",
-    "/swagger-ui/index.css",
-    "/swagger-ui/swagger-ui.html",
-    "/swagger-ui/swagger-ui.css",
-    "/swagger-ui/swagger-ui-bundle.js",
-    "/swagger-ui/swagger-ui-standalone-preset.js",
-    "/swagger-ui/swagger-ui.js",
-    "/swagger-ui/swagger-ui.min.js",
-    "/swagger-ui/favicon-16x16.png",
-    "/swagger-ui/favicon-32x32.png",
-    "/swagger-ui/oauth2-redirect.html",
-    "/swagger-ui.html?url=/swagger.json",
-    "/swagger-ui.html?url=/api-docs",
-    "/swagger-ui.html?url=/v2/api-docs",
-    "/swagger-ui.html?url=/v3/api-docs",
-    "/swagger-ui.html?configUrl=/v3/api-docs/swagger-config",
-    "/swagger-ui.html?configUrl=/v3/api-docs/swagger-config.json",
-    "/swagger-ui-bundle.js",
-    "/swagger-ui-standalone-preset.js",
-    "/swagger-ui.css",
-    "/swagger-ui.min.css",
-    "/swagger-ui.min.js",
-    "/swagger-ui-es-bundle.js",
-    "/swagger-ui-es-bundle-core.js",
-    "/swagger-ui-bundle",
-    "/swaggerui",
-    "/swaggerui/",
-    "/swaggerui/index.html",
-    "/swaggerui/swagger-ui-standalone-preset.js",
-    "/swaggerui/swagger-ui-bundle.js",
-    "/swaggerui/swagger-ui.css",
+#============================================================
+#SWAGGERUIVARIANTS
+#============================================================
+/swagger-ui.html
+/swagger-ui/
+/swagger-ui/index.html
+/swagger-ui/index.css
+/swagger-ui/swagger-ui.html
+/swagger-ui/swagger-ui.css
+/swagger-ui/swagger-ui-bundle.js
+/swagger-ui/swagger-ui-standalone-preset.js
+/swagger-ui/swagger-ui.js
+/swagger-ui/swagger-ui.min.js
+/swagger-ui/favicon-16x16.png
+/swagger-ui/favicon-32x32.png
+/swagger-ui/oauth2-redirect.html
+/swagger-ui.html?url=/swagger.json
+/swagger-ui.html?url=/api-docs
+/swagger-ui.html?url=/v2/api-docs
+/swagger-ui.html?url=/v3/api-docs
+/swagger-ui.html?configUrl=/v3/api-docs/swagger-config
+/swagger-ui.html?configUrl=/v3/api-docs/swagger-config.json
+/swagger-ui-bundle.js
+/swagger-ui-standalone-preset.js
+/swagger-ui.css
+/swagger-ui.min.css
+/swagger-ui.min.js
+/swagger-ui-es-bundle.js
+/swagger-ui-es-bundle-core.js
+/swagger-ui-bundle
+/swaggerui
+/swaggerui/
+/swaggerui/index.html
+/swaggerui/swagger-ui-standalone-preset.js
+/swaggerui/swagger-ui-bundle.js
+/swaggerui/swagger-ui.css
 
-    # ============================================================
-    # /SWAGGER PREFIX
-    # ============================================================
-    "/swagger",
-    "/swagger/",
-    "/swagger/index.html",
-    "/swagger/swagger.json",
-    "/swagger/swagger.yaml",
-    "/swagger/swagger.yml",
-    "/swagger/openapi.json",
-    "/swagger/openapi.yaml",
-    "/swagger/openapi.yml",
-    "/swagger/api-docs",
-    "/swagger/api-docs.json",
-    "/swagger/api-docs.yaml",
-    "/swagger/apidoc",
-    "/swagger/apidocs",
-    "/swagger/docs",
-    "/swagger/docs.json",
-    "/swagger/schema",
-    "/swagger/schema.json",
-    "/swagger/spec",
-    "/swagger/spec.json",
-    "/swagger/redoc",
-    "/swagger/redoc.html",
-    "/swagger/ui",
-    "/swagger/ui/",
-    "/swagger/ui/index.html",
-    "/swagger/v1/swagger.json",
-    "/swagger/v1/swagger.yaml",
-    "/swagger/v1/api-docs",
-    "/swagger/v1/openapi.json",
-    "/swagger/v1/openapi.yaml",
-    "/swagger/v2/swagger.json",
-    "/swagger/v2/swagger.yaml",
-    "/swagger/v2/api-docs",
-    "/swagger/v2/openapi.json",
-    "/swagger/v2/openapi.yaml",
-    "/swagger/v3/swagger.json",
-    "/swagger/v3/swagger.yaml",
-    "/swagger/v3/api-docs",
-    "/swagger/v3/openapi.json",
-    "/swagger/v3/openapi.yaml",
-    "/swagger/docs/v1",
-    "/swagger/docs/v1/",
-    "/swagger/docs/v2",
-    "/swagger/docs/v2/",
-    "/swagger/docs/v3",
-    "/swagger/docs/v3/",
+#============================================================
+#/SWAGGERPREFIX
+#============================================================
+/swagger
+/swagger/
+/swagger/index.html
+/swagger/swagger.json
+/swagger/swagger.yaml
+/swagger/swagger.yml
+/swagger/openapi.json
+/swagger/openapi.yaml
+/swagger/openapi.yml
+/swagger/api-docs
+/swagger/api-docs.json
+/swagger/api-docs.yaml
+/swagger/apidoc
+/swagger/apidocs
+/swagger/docs
+/swagger/docs.json
+/swagger/schema
+/swagger/schema.json
+/swagger/spec
+/swagger/spec.json
+/swagger/redoc
+/swagger/redoc.html
+/swagger/ui
+/swagger/ui/
+/swagger/ui/index.html
+/swagger/v1/swagger.json
+/swagger/v1/swagger.yaml
+/swagger/v1/api-docs
+/swagger/v1/openapi.json
+/swagger/v1/openapi.yaml
+/swagger/v2/swagger.json
+/swagger/v2/swagger.yaml
+/swagger/v2/api-docs
+/swagger/v2/openapi.json
+/swagger/v2/openapi.yaml
+/swagger/v3/swagger.json
+/swagger/v3/swagger.yaml
+/swagger/v3/api-docs
+/swagger/v3/openapi.json
+/swagger/v3/openapi.yaml
+/swagger/docs/v1
+/swagger/docs/v1/
+/swagger/docs/v2
+/swagger/docs/v2/
+/swagger/docs/v3
+/swagger/docs/v3/
 
-    # ============================================================
-    # OPENAPI ROOT VARIANTS
-    # ============================================================
-    "/openapi",
-    "/openapi/",
-    "/openapi/v1",
-    "/openapi/v2",
-    "/openapi/v3",
-    "/openapi/v1.json",
-    "/openapi/v1.yaml",
-    "/openapi/v2.json",
-    "/openapi/v2.yaml",
-    "/openapi/v3.json",
-    "/openapi/v3.yaml",
-    "/openapi/v3.0.json",
-    "/openapi/v3.1.json",
-    "/openapi.json?format=json",
-    "/openapi.json?version=3.0.0",
-    "/openapi.json?version=3.0.1",
-    "/openapi.json?version=3.1.0",
-    "/openapi.json?group=default",
-    "/openapi.json?group=public",
-    "/openapi.json?group=internal",
-    "/openapi.json?group=v1",
-    "/openapi.json?group=v2",
-    "/openapi.json?group=v3",
-    "/openapi.json?callback=callback",
-    "/openapi.json?callback=test",
-    "/openapi.json?origin=*",
-    "/openapi.json?cors=true",
-    "/openapi.yaml?format=yaml",
-    "/openapi.yml?format=yaml",
-    "/.well-known/openapi.json",
-    "/.well-known/openapi",
-    "/.well-known/openapi.yaml",
-    "/.well-known/openapi.yml",
-    "/.well-known/api-docs",
-    "/.well-known/api-docs.json",
-    "/.well-known/swagger.json",
+#============================================================
+#OPENAPIROOTVARIANTS
+#============================================================
+/openapi
+/openapi/
+/openapi/v1
+/openapi/v2
+/openapi/v3
+/openapi/v1.json
+/openapi/v1.yaml
+/openapi/v2.json
+/openapi/v2.yaml
+/openapi/v3.json
+/openapi/v3.yaml
+/openapi/v3.0.json
+/openapi/v3.1.json
+/openapi.json?format=json
+/openapi.json?version=3.0.0
+/openapi.json?version=3.0.1
+/openapi.json?version=3.1.0
+/openapi.json?group=default
+/openapi.json?group=public
+/openapi.json?group=internal
+/openapi.json?group=v1
+/openapi.json?group=v2
+/openapi.json?group=v3
+/openapi.json?callback=callback
+/openapi.json?callback=test
+/openapi.json?origin=*
+/openapi.json?cors=true
+/openapi.yaml?format=yaml
+/openapi.yml?format=yaml
+/.well-known/openapi.json
+/.well-known/openapi
+/.well-known/openapi.yaml
+/.well-known/openapi.yml
+/.well-known/api-docs
+/.well-known/api-docs.json
+/.well-known/swagger.json
 
-    # ============================================================
-    # VERSIONED SWAGGER (SPRING/JAVA COMMON)
-    # ============================================================
-    "/v1/api-docs",
-    "/v1/swagger.json",
-    "/v1/swagger.yaml",
-    "/v1/swagger.yml",
-    "/v1/openapi.json",
-    "/v1/openapi.yaml",
-    "/v1/openapi.yml",
-    "/v1/api-docs.json",
-    "/v1/api-docs.yaml",
-    "/v1/docs",
-    "/v1/docs/",
-    "/v1/docs.json",
-    "/v1/apidoc",
-    "/v1/apidocs",
-    "/v1/apidocs.json",
-    "/v1/schema",
-    "/v1/schema.json",
-    "/v1/spec",
-    "/v1/spec.json",
-    "/v1/spec.yaml",
-    "/v1/redoc",
-    "/v1/redoc.html",
-    "/v1/swagger-ui",
-    "/v1/swagger-ui/",
-    "/v1/swagger-ui.html",
-    "/v2/api-docs",
-    "/v2/swagger.json",
-    "/v2/swagger.yaml",
-    "/v2/swagger.yml",
-    "/v2/openapi.json",
-    "/v2/openapi.yaml",
-    "/v2/openapi.yml",
-    "/v2/api-docs.json",
-    "/v2/api-docs.yaml",
-    "/v2/docs",
-    "/v2/docs/",
-    "/v2/docs.json",
-    "/v2/apidoc",
-    "/v2/apidocs",
-    "/v2/apidocs.json",
-    "/v2/schema",
-    "/v2/schema.json",
-    "/v2/spec",
-    "/v2/spec.json",
-    "/v2/spec.yaml",
-    "/v2/redoc",
-    "/v2/redoc.html",
-    "/v2/swagger-ui",
-    "/v2/swagger-ui/",
-    "/v2/swagger-ui.html",
-    "/v3/api-docs",
-    "/v3/api-docs.yaml",
-    "/v3/swagger.json",
-    "/v3/swagger.yaml",
-    "/v3/swagger.yml",
-    "/v3/openapi.json",
-    "/v3/openapi.yaml",
-    "/v3/openapi.yml",
-    "/v3/api-docs.json",
-    "/v3/api-docs.yaml",
-    "/v3/docs",
-    "/v3/docs/",
-    "/v3/docs.json",
-    "/v3/apidoc",
-    "/v3/apidocs",
-    "/v3/apidocs.json",
-    "/v3/schema",
-    "/v3/schema.json",
-    "/v3/spec",
-    "/v3/spec.json",
-    "/v3/spec.yaml",
-    "/v3/redoc",
-    "/v3/redoc.html",
-    "/v3/swagger-ui",
-    "/v3/swagger-ui/",
-    "/v3/swagger-ui.html",
-    "/v4/api-docs",
-    "/v4/swagger.json",
-    "/v4/openapi.json",
-    "/v4/swagger-ui.html",
-    "/v4/docs",
-    "/v4/schema",
-    "/v4/spec",
-    "/v0/swagger.json",
-    "/v0/api-docs",
-    "/v0/openapi.json",
-    "/v0.1/swagger.json",
-    "/v0.1/api-docs",
-    "/v0.1/openapi.json",
-    "/v0.2/swagger.json",
-    "/v0.2/api-docs",
-    "/v0.2/openapi.json",
-    "/v0.3/swagger.json",
-    "/v1.0/swagger.json",
-    "/v1.0/api-docs",
-    "/v1.0/openapi.json",
-    "/v1.x/swagger-ui.html",
-    "/v2.0/swagger.json",
-    "/v2.0/api-docs",
-    "/v2.0/openapi.json",
-    "/v3.0/swagger.json",
-    "/v3.0/api-docs",
-    "/v3.0/openapi.json",
-    "/v3.1/swagger.json",
-    "/v3.1/api-docs",
-    "/v3.1/openapi.json",
-    "/v2023/swagger.json",
-    "/v2023/openapi.json",
-    "/v2024/swagger.json",
-    "/v2024/openapi.json",
+#============================================================
+#VERSIONEDSWAGGER(SPRING/JAVACOMMON)
+#============================================================
+/v1/api-docs
+/v1/swagger.json
+/v1/swagger.yaml
+/v1/swagger.yml
+/v1/openapi.json
+/v1/openapi.yaml
+/v1/openapi.yml
+/v1/api-docs.json
+/v1/api-docs.yaml
+/v1/docs
+/v1/docs/
+/v1/docs.json
+/v1/apidoc
+/v1/apidocs
+/v1/apidocs.json
+/v1/schema
+/v1/schema.json
+/v1/spec
+/v1/spec.json
+/v1/spec.yaml
+/v1/redoc
+/v1/redoc.html
+/v1/swagger-ui
+/v1/swagger-ui/
+/v1/swagger-ui.html
+/v2/api-docs
+/v2/swagger.json
+/v2/swagger.yaml
+/v2/swagger.yml
+/v2/openapi.json
+/v2/openapi.yaml
+/v2/openapi.yml
+/v2/api-docs.json
+/v2/api-docs.yaml
+/v2/docs
+/v2/docs/
+/v2/docs.json
+/v2/apidoc
+/v2/apidocs
+/v2/apidocs.json
+/v2/schema
+/v2/schema.json
+/v2/spec
+/v2/spec.json
+/v2/spec.yaml
+/v2/redoc
+/v2/redoc.html
+/v2/swagger-ui
+/v2/swagger-ui/
+/v2/swagger-ui.html
+/v3/api-docs
+/v3/api-docs.yaml
+/v3/swagger.json
+/v3/swagger.yaml
+/v3/swagger.yml
+/v3/openapi.json
+/v3/openapi.yaml
+/v3/openapi.yml
+/v3/api-docs.json
+/v3/api-docs.yaml
+/v3/docs
+/v3/docs/
+/v3/docs.json
+/v3/apidoc
+/v3/apidocs
+/v3/apidocs.json
+/v3/schema
+/v3/schema.json
+/v3/spec
+/v3/spec.json
+/v3/spec.yaml
+/v3/redoc
+/v3/redoc.html
+/v3/swagger-ui
+/v3/swagger-ui/
+/v3/swagger-ui.html
+/v4/api-docs
+/v4/swagger.json
+/v4/openapi.json
+/v4/swagger-ui.html
+/v4/docs
+/v4/schema
+/v4/spec
+/v0/swagger.json
+/v0/api-docs
+/v0/openapi.json
+/v0.1/swagger.json
+/v0.1/api-docs
+/v0.1/openapi.json
+/v0.2/swagger.json
+/v0.2/api-docs
+/v0.2/openapi.json
+/v0.3/swagger.json
+/v1.0/swagger.json
+/v1.0/api-docs
+/v1.0/openapi.json
+/v1.x/swagger-ui.html
+/v2.0/swagger.json
+/v2.0/api-docs
+/v2.0/openapi.json
+/v3.0/swagger.json
+/v3.0/api-docs
+/v3.0/openapi.json
+/v3.1/swagger.json
+/v3.1/api-docs
+/v3.1/openapi.json
+/v2023/swagger.json
+/v2023/openapi.json
+/v2024/swagger.json
+/v2024/openapi.json
 
-    # ============================================================
-    # /API PREFIX VARIANTS
-    # ============================================================
-    "/api/swagger.json",
-    "/api/swagger.yaml",
-    "/api/swagger.yml",
-    "/api/swagger-ui.html",
-    "/api/swagger-ui/",
-    "/api/swagger-ui/index.html",
-    "/api/swagger-ui/api-docs",
-    "/api/swagger-ui/swagger.json",
-    "/api/swagger-ui/openapi.json",
-    "/api/swagger-ui/redoc",
-    "/api/swagger-ui/redoc.html",
-    "/api/swagger",
-    "/api/swagger/",
-    "/api/swagger/swagger.json",
-    "/api/api-docs",
-    "/api/api-docs/swagger.json",
-    "/api/apidocs",
-    "/api/apidocs/swagger.json",
-    "/api/apidoc",
-    "/api/doc",
-    "/api/doc.json",
-    "/api/doc.yaml",
-    "/api/doc.yml",
-    "/api/doc/",
-    "/api/doc/swagger.json",
-    "/api/doc/openapi.json",
-    "/api/doc/v1",
-    "/api/doc/v2",
-    "/api/doc/v3",
-    "/api/docs",
-    "/api/docs/",
-    "/api/docs.json",
-    "/api/docs/swagger.json",
-    "/api/docs/openapi.json",
-    "/api/docs/openapi.yaml",
-    "/api/docs/api-docs",
-    "/api/docs/api-docs.json",
-    "/api/docs/redoc",
-    "/api/docs/redoc.html",
-    "/api/docs/schema",
-    "/api/docs/schema.json",
-    "/api/docs/schema.yaml",
-    "/api/docs/spec",
-    "/api/docs/spec.json",
-    "/api/docs/spec.yaml",
-    "/api/docs/v1",
-    "/api/docs/v1/",
-    "/api/docs/v1/swagger.json",
-    "/api/docs/v1/openapi.json",
-    "/api/docs/v2",
-    "/api/docs/v2/",
-    "/api/docs/v2/swagger.json",
-    "/api/docs/v2/openapi.json",
-    "/api/docs/v3",
-    "/api/docs/v3/",
-    "/api/docs/v3/swagger.json",
-    "/api/docs/v3/openapi.json",
-    "/api/openapi.json",
-    "/api/openapi.yaml",
-    "/api/openapi",
-    "/api/openapi/",
-    "/api/openapi.yaml",
-    "/api/openapi.yml",
-    "/api/v1/swagger.json",
-    "/api/v1/api-docs",
-    "/api/v1/openapi.json",
-    "/api/v1/swagger",
-    "/api/v1/swagger/",
-    "/api/v1/swagger-ui",
-    "/api/v1/swagger-ui/",
-    "/api/v1/swagger-ui.html",
-    "/api/v1/swagger.yaml",
-    "/api/v1/swagger.yml",
-    "/api/v1/openapi",
-    "/api/v1/openapi/",
-    "/api/v1/openapi.yaml",
-    "/api/v1/openapi.yml",
-    "/api/v1/docs",
-    "/api/v1/docs/",
-    "/api/v1/docs.json",
-    "/api/v1/apidoc",
-    "/api/v1/apidocs",
-    "/api/v1/apidocs.json",
-    "/api/v1/apidocs.yaml",
-    "/api/v1/schema",
-    "/api/v1/schema.json",
-    "/api/v1/schema.yaml",
-    "/api/v1/spec",
-    "/api/v1/spec.json",
-    "/api/v1/spec.yaml",
-    "/api/v1/redoc",
-    "/api/v1/redoc.html",
-    "/api/v2/swagger.json",
-    "/api/v2/api-docs",
-    "/api/v2/openapi.json",
-    "/api/v2/swagger",
-    "/api/v2/swagger/",
-    "/api/v2/swagger-ui",
-    "/api/v2/swagger-ui/",
-    "/api/v2/swagger-ui.html",
-    "/api/v2/swagger.yaml",
-    "/api/v2/swagger.yml",
-    "/api/v2/openapi",
-    "/api/v2/openapi/",
-    "/api/v2/openapi.yaml",
-    "/api/v2/openapi.yml",
-    "/api/v2/docs",
-    "/api/v2/docs/",
-    "/api/v2/docs.json",
-    "/api/v2/apidoc",
-    "/api/v2/apidocs",
-    "/api/v2/apidocs.json",
-    "/api/v2/apidocs.yaml",
-    "/api/v2/schema",
-    "/api/v2/schema.json",
-    "/api/v2/schema.yaml",
-    "/api/v2/spec",
-    "/api/v2/spec.json",
-    "/api/v2/spec.yaml",
-    "/api/v2/redoc",
-    "/api/v2/redoc.html",
-    "/api/v3/swagger.json",
-    "/api/v3/api-docs",
-    "/api/v3/openapi.json",
-    "/api/v3/swagger",
-    "/api/v3/swagger/",
-    "/api/v3/swagger-ui",
-    "/api/v3/swagger-ui/",
-    "/api/v3/swagger-ui.html",
-    "/api/v3/swagger.yaml",
-    "/api/v3/swagger.yml",
-    "/api/v3/openapi",
-    "/api/v3/openapi/",
-    "/api/v3/openapi.yaml",
-    "/api/v3/openapi.yml",
-    "/api/v3/docs",
-    "/api/v3/docs/",
-    "/api/v3/docs.json",
-    "/api/v3/apidoc",
-    "/api/v3/apidocs",
-    "/api/v3/apidocs.json",
-    "/api/v3/apidocs.yaml",
-    "/api/v3/schema",
-    "/api/v3/schema.json",
-    "/api/v3/schema.yaml",
-    "/api/v3/spec",
-    "/api/v3/spec.json",
-    "/api/v3/spec.yaml",
-    "/api/v3/redoc",
-    "/api/v3/redoc.html",
-    "/api/v4/swagger.json",
-    "/api/v4/api-docs",
-    "/api/v4/openapi.json",
-    "/api/v4/swagger-ui.html",
-    "/api/v4/docs",
-    "/api/v4/schema",
-    "/api/v4/spec",
-    "/api/v0/swagger.json",
-    "/api/v0/api-docs",
-    "/api/v0/openapi.json",
-    "/api/v0.1/swagger.json",
-    "/api/v0.1/api-docs",
-    "/api/v0.1/openapi.json",
-    "/api/v0.2/swagger.json",
-    "/api/v0.2/api-docs",
-    "/api/v0.2/openapi.json",
-    "/api/v1.0/swagger.json",
-    "/api/v1.0/api-docs",
-    "/api/v1.0/openapi.json",
-    "/api/v2.0/swagger.json",
-    "/api/v2.0/api-docs",
-    "/api/v2.0/openapi.json",
-    "/api/v3.0/swagger.json",
-    "/api/v3.0/api-docs",
-    "/api/v3.0/openapi.json",
-    "/api/v3.1/swagger.json",
-    "/api/v3.1/api-docs",
-    "/api/v3.1/openapi.json",
-    "/api/apidoc.json",
-    "/api/apidoc.yaml",
-    "/api/apidocs.json",
-    "/api/apidocs.yaml",
-    "/api/documentation",
-    "/api/documentation/",
-    "/api/documentation/swagger.json",
-    "/api/documentation/openapi.json",
-    "/api/reference",
-    "/api/reference/",
-    "/api/reference.json",
-    "/api/reference.yaml",
-    "/api/redoc",
-    "/api/redoc/",
-    "/api/redoc.json",
-    "/api/redocly",
-    "/api/redocly/",
-    "/api/schema",
-    "/api/schema.json",
-    "/api/schema/",
-    "/api/schema.yaml",
-    "/api/schema.yml",
-    "/api/schema.json?format=json",
-    "/api/schema.yaml?format=yaml",
-    "/api/spec",
-    "/api/spec.json",
-    "/api/spec/",
-    "/api/spec.yaml",
-    "/api/spec.yml",
-    "/api/spec/v1",
-    "/api/spec/v2",
-    "/api/spec/v3",
-    "/api/swagger-resources",
-    "/api/swagger-resources/",
-    "/api/swagger-resources/configuration/ui",
-    "/api/swagger-resources/configuration/security",
-    "/api/webjars/swagger-ui/index.html",
-    "/api/webjars/swagger-ui/",
-    "/api/__swagger__/",
-    "/api/_swagger_/",
-    "/api/.swagger/",
-    "/api/v1/",
-    "/api/v2/",
-    "/api/v3/",
-    "/api/v1/docs",
-    "/api/v2/docs",
-    "/api/v3/docs",
-    "/api/v1/documentation",
-    "/api/v2/documentation",
-    "/api/v3/documentation",
-    "/api/v1/reference",
-    "/api/v2/reference",
-    "/api/v3/reference",
-    "/api/v1/schema",
-    "/api/v2/schema",
-    "/api/v3/schema",
+#============================================================
+#/APIPREFIXVARIANTS
+#============================================================
+/api/swagger.json
+/api/swagger.yaml
+/api/swagger.yml
+/api/swagger-ui.html
+/api/swagger-ui/
+/api/swagger-ui/index.html
+/api/swagger-ui/api-docs
+/api/swagger-ui/swagger.json
+/api/swagger-ui/openapi.json
+/api/swagger-ui/redoc
+/api/swagger-ui/redoc.html
+/api/swagger
+/api/swagger/
+/api/swagger/swagger.json
+/api/api-docs
+/api/api-docs/swagger.json
+/api/apidocs
+/api/apidocs/swagger.json
+/api/apidoc
+/api/doc
+/api/doc.json
+/api/doc.yaml
+/api/doc.yml
+/api/doc/
+/api/doc/swagger.json
+/api/doc/openapi.json
+/api/doc/v1
+/api/doc/v2
+/api/doc/v3
+/api/docs
+/api/docs/
+/api/docs.json
+/api/docs/swagger.json
+/api/docs/openapi.json
+/api/docs/openapi.yaml
+/api/docs/api-docs
+/api/docs/api-docs.json
+/api/docs/redoc
+/api/docs/redoc.html
+/api/docs/schema
+/api/docs/schema.json
+/api/docs/schema.yaml
+/api/docs/spec
+/api/docs/spec.json
+/api/docs/spec.yaml
+/api/docs/v1
+/api/docs/v1/
+/api/docs/v1/swagger.json
+/api/docs/v1/openapi.json
+/api/docs/v2
+/api/docs/v2/
+/api/docs/v2/swagger.json
+/api/docs/v2/openapi.json
+/api/docs/v3
+/api/docs/v3/
+/api/docs/v3/swagger.json
+/api/docs/v3/openapi.json
+/api/openapi.json
+/api/openapi.yaml
+/api/openapi
+/api/openapi/
+/api/openapi.yaml
+/api/openapi.yml
+/api/v1/swagger.json
+/api/v1/api-docs
+/api/v1/openapi.json
+/api/v1/swagger
+/api/v1/swagger/
+/api/v1/swagger-ui
+/api/v1/swagger-ui/
+/api/v1/swagger-ui.html
+/api/v1/swagger.yaml
+/api/v1/swagger.yml
+/api/v1/openapi
+/api/v1/openapi/
+/api/v1/openapi.yaml
+/api/v1/openapi.yml
+/api/v1/docs
+/api/v1/docs/
+/api/v1/docs.json
+/api/v1/apidoc
+/api/v1/apidocs
+/api/v1/apidocs.json
+/api/v1/apidocs.yaml
+/api/v1/schema
+/api/v1/schema.json
+/api/v1/schema.yaml
+/api/v1/spec
+/api/v1/spec.json
+/api/v1/spec.yaml
+/api/v1/redoc
+/api/v1/redoc.html
+/api/v2/swagger.json
+/api/v2/api-docs
+/api/v2/openapi.json
+/api/v2/swagger
+/api/v2/swagger/
+/api/v2/swagger-ui
+/api/v2/swagger-ui/
+/api/v2/swagger-ui.html
+/api/v2/swagger.yaml
+/api/v2/swagger.yml
+/api/v2/openapi
+/api/v2/openapi/
+/api/v2/openapi.yaml
+/api/v2/openapi.yml
+/api/v2/docs
+/api/v2/docs/
+/api/v2/docs.json
+/api/v2/apidoc
+/api/v2/apidocs
+/api/v2/apidocs.json
+/api/v2/apidocs.yaml
+/api/v2/schema
+/api/v2/schema.json
+/api/v2/schema.yaml
+/api/v2/spec
+/api/v2/spec.json
+/api/v2/spec.yaml
+/api/v2/redoc
+/api/v2/redoc.html
+/api/v3/swagger.json
+/api/v3/api-docs
+/api/v3/openapi.json
+/api/v3/swagger
+/api/v3/swagger/
+/api/v3/swagger-ui
+/api/v3/swagger-ui/
+/api/v3/swagger-ui.html
+/api/v3/swagger.yaml
+/api/v3/swagger.yml
+/api/v3/openapi
+/api/v3/openapi/
+/api/v3/openapi.yaml
+/api/v3/openapi.yml
+/api/v3/docs
+/api/v3/docs/
+/api/v3/docs.json
+/api/v3/apidoc
+/api/v3/apidocs
+/api/v3/apidocs.json
+/api/v3/apidocs.yaml
+/api/v3/schema
+/api/v3/schema.json
+/api/v3/schema.yaml
+/api/v3/spec
+/api/v3/spec.json
+/api/v3/spec.yaml
+/api/v3/redoc
+/api/v3/redoc.html
+/api/v4/swagger.json
+/api/v4/api-docs
+/api/v4/openapi.json
+/api/v4/swagger-ui.html
+/api/v4/docs
+/api/v4/schema
+/api/v4/spec
+/api/v0/swagger.json
+/api/v0/api-docs
+/api/v0/openapi.json
+/api/v0.1/swagger.json
+/api/v0.1/api-docs
+/api/v0.1/openapi.json
+/api/v0.2/swagger.json
+/api/v0.2/api-docs
+/api/v0.2/openapi.json
+/api/v1.0/swagger.json
+/api/v1.0/api-docs
+/api/v1.0/openapi.json
+/api/v2.0/swagger.json
+/api/v2.0/api-docs
+/api/v2.0/openapi.json
+/api/v3.0/swagger.json
+/api/v3.0/api-docs
+/api/v3.0/openapi.json
+/api/v3.1/swagger.json
+/api/v3.1/api-docs
+/api/v3.1/openapi.json
+/api/apidoc.json
+/api/apidoc.yaml
+/api/apidocs.json
+/api/apidocs.yaml
+/api/documentation
+/api/documentation/
+/api/documentation/swagger.json
+/api/documentation/openapi.json
+/api/reference
+/api/reference/
+/api/reference.json
+/api/reference.yaml
+/api/redoc
+/api/redoc/
+/api/redoc.json
+/api/redocly
+/api/redocly/
+/api/schema
+/api/schema.json
+/api/schema/
+/api/schema.yaml
+/api/schema.yml
+/api/schema.json?format=json
+/api/schema.yaml?format=yaml
+/api/spec
+/api/spec.json
+/api/spec/
+/api/spec.yaml
+/api/spec.yml
+/api/spec/v1
+/api/spec/v2
+/api/spec/v3
+/api/swagger-resources
+/api/swagger-resources/
+/api/swagger-resources/configuration/ui
+/api/swagger-resources/configuration/security
+/api/webjars/swagger-ui/index.html
+/api/webjars/swagger-ui/
+/api/__swagger__/
+/api/_swagger_/
+/api/.swagger/
+/api/v1/
+/api/v2/
+/api/v3/
+/api/v1/docs
+/api/v2/docs
+/api/v3/docs
+/api/v1/documentation
+/api/v2/documentation
+/api/v3/documentation
+/api/v1/reference
+/api/v2/reference
+/api/v3/reference
+/api/v1/schema
+/api/v2/schema
+/api/v3/schema
 
-    # ============================================================
-    # DOCS / DOCUMENTATION
-    # ============================================================
-    "/docs",
-    "/docs/",
-    "/docs/swagger.json",
-    "/docs/swagger.yaml",
-    "/docs/swagger.yml",
-    "/docs/openapi.json",
-    "/docs/openapi.yaml",
-    "/docs/openapi.yml",
-    "/docs/api-reference",
-    "/docs/api-docs",
-    "/docs/api-docs.json",
-    "/docs/api-docs.yaml",
-    "/docs/api-docs.yml",
-    "/docs/v1",
-    "/docs/v1/",
-    "/docs/v1/swagger.json",
-    "/docs/v1/openapi.json",
-    "/docs/v2",
-    "/docs/v2/",
-    "/docs/v2/swagger.json",
-    "/docs/v2/openapi.json",
-    "/docs/v3",
-    "/docs/v3/",
-    "/docs/v3/swagger.json",
-    "/docs/v3/openapi.json",
-    "/docs/apidoc",
-    "/docs/apidocs",
-    "/docs/apidocs.json",
-    "/docs/apidocs.yaml",
-    "/docs/schema",
-    "/docs/schema.json",
-    "/docs/schema.yaml",
-    "/docs/schema.yml",
-    "/docs/spec",
-    "/docs/spec.json",
-    "/docs/spec.yaml",
-    "/docs/spec.yml",
-    "/docs/redoc",
-    "/docs/redoc.html",
-    "/docs/redoc/",
-    "/docs/redocly",
-    "/docs/redocly/",
-    "/docs/rapidoc",
-    "/docs/rapidoc/",
-    "/docs/reference",
-    "/docs/reference/",
-    "/docs/reference.json",
-    "/docs/api",
-    "/docs/api/",
-    "/docs/api/swagger.json",
-    "/docs/api/openapi.json",
-    "/docs/swagger-ui",
-    "/docs/swagger-ui/",
-    "/docs/swagger-ui.html",
-    "/docs/swagger-ui/swagger.json",
-    "/docs/swagger-ui/openapi.json",
-    "/doc",
-    "/doc/",
-    "/doc/swagger.json",
-    "/doc/swagger.yaml",
-    "/doc/openapi.json",
-    "/doc/openapi.yaml",
-    "/doc/api-docs",
-    "/doc/api-docs.json",
-    "/doc/v1",
-    "/doc/v1/",
-    "/doc/v1/swagger.json",
-    "/doc/v2",
-    "/doc/v2/",
-    "/doc/v2/swagger.json",
-    "/doc/v3",
-    "/doc/v3/",
-    "/doc/v3/swagger.json",
-    "/doc/apidoc",
-    "/doc/apidocs",
-    "/doc/schema",
-    "/doc/schema.json",
-    "/doc/spec",
-    "/doc/spec.json",
-    "/doc/redoc",
-    "/doc/redoc.html",
-    "/doc/swagger-ui",
-    "/doc/swagger-ui/",
-    "/doc/swagger-ui.html",
-    "/documentation",
-    "/documentation/",
-    "/documentation/swagger.json",
-    "/documentation/swagger.yaml",
-    "/documentation/swagger.yml",
-    "/documentation/openapi.json",
-    "/documentation/openapi.yaml",
-    "/documentation/openapi.yml",
-    "/documentation/api-docs",
-    "/documentation/api-docs.json",
-    "/documentation/api-docs.yaml",
-    "/documentation/v1",
-    "/documentation/v1/",
-    "/documentation/v1/swagger.json",
-    "/documentation/v1/openapi.json",
-    "/documentation/v2",
-    "/documentation/v2/",
-    "/documentation/v2/swagger.json",
-    "/documentation/v2/openapi.json",
-    "/documentation/v3",
-    "/documentation/v3/",
-    "/documentation/v3/swagger.json",
-    "/documentation/v3/openapi.json",
-    "/documentation/apidoc",
-    "/documentation/apidocs",
-    "/documentation/schema",
-    "/documentation/schema.json",
-    "/documentation/schema.yaml",
-    "/documentation/spec",
-    "/documentation/spec.json",
-    "/documentation/spec.yaml",
-    "/documentation/redoc",
-    "/documentation/redoc.html",
-    "/documentation/redoc/",
-    "/documentation/rapidoc",
-    "/documentation/reference",
-    "/documentation/reference/",
-    "/documentation/swagger-ui",
-    "/documentation/swagger-ui/",
-    "/documentation/swagger-ui.html",
+#============================================================
+#DOCS/DOCUMENTATION
+#============================================================
+/docs
+/docs/
+/docs/swagger.json
+/docs/swagger.yaml
+/docs/swagger.yml
+/docs/openapi.json
+/docs/openapi.yaml
+/docs/openapi.yml
+/docs/api-reference
+/docs/api-docs
+/docs/api-docs.json
+/docs/api-docs.yaml
+/docs/api-docs.yml
+/docs/v1
+/docs/v1/
+/docs/v1/swagger.json
+/docs/v1/openapi.json
+/docs/v2
+/docs/v2/
+/docs/v2/swagger.json
+/docs/v2/openapi.json
+/docs/v3
+/docs/v3/
+/docs/v3/swagger.json
+/docs/v3/openapi.json
+/docs/apidoc
+/docs/apidocs
+/docs/apidocs.json
+/docs/apidocs.yaml
+/docs/schema
+/docs/schema.json
+/docs/schema.yaml
+/docs/schema.yml
+/docs/spec
+/docs/spec.json
+/docs/spec.yaml
+/docs/spec.yml
+/docs/redoc
+/docs/redoc.html
+/docs/redoc/
+/docs/redocly
+/docs/redocly/
+/docs/rapidoc
+/docs/rapidoc/
+/docs/reference
+/docs/reference/
+/docs/reference.json
+/docs/api
+/docs/api/
+/docs/api/swagger.json
+/docs/api/openapi.json
+/docs/swagger-ui
+/docs/swagger-ui/
+/docs/swagger-ui.html
+/docs/swagger-ui/swagger.json
+/docs/swagger-ui/openapi.json
+/doc
+/doc/
+/doc/swagger.json
+/doc/swagger.yaml
+/doc/openapi.json
+/doc/openapi.yaml
+/doc/api-docs
+/doc/api-docs.json
+/doc/v1
+/doc/v1/
+/doc/v1/swagger.json
+/doc/v2
+/doc/v2/
+/doc/v2/swagger.json
+/doc/v3
+/doc/v3/
+/doc/v3/swagger.json
+/doc/apidoc
+/doc/apidocs
+/doc/schema
+/doc/schema.json
+/doc/spec
+/doc/spec.json
+/doc/redoc
+/doc/redoc.html
+/doc/swagger-ui
+/doc/swagger-ui/
+/doc/swagger-ui.html
+/documentation
+/documentation/
+/documentation/swagger.json
+/documentation/swagger.yaml
+/documentation/swagger.yml
+/documentation/openapi.json
+/documentation/openapi.yaml
+/documentation/openapi.yml
+/documentation/api-docs
+/documentation/api-docs.json
+/documentation/api-docs.yaml
+/documentation/v1
+/documentation/v1/
+/documentation/v1/swagger.json
+/documentation/v1/openapi.json
+/documentation/v2
+/documentation/v2/
+/documentation/v2/swagger.json
+/documentation/v2/openapi.json
+/documentation/v3
+/documentation/v3/
+/documentation/v3/swagger.json
+/documentation/v3/openapi.json
+/documentation/apidoc
+/documentation/apidocs
+/documentation/schema
+/documentation/schema.json
+/documentation/schema.yaml
+/documentation/spec
+/documentation/spec.json
+/documentation/spec.yaml
+/documentation/redoc
+/documentation/redoc.html
+/documentation/redoc/
+/documentation/rapidoc
+/documentation/reference
+/documentation/reference/
+/documentation/swagger-ui
+/documentation/swagger-ui/
+/documentation/swagger-ui.html
 
-    # ============================================================
-    # REDOC EXTENSIVE
-    # ============================================================
-    "/redoc",
-    "/redoc/",
-    "/redoc.html",
-    "/redoc.json",
-    "/redoc.yaml",
-    "/redoc/v1",
-    "/redoc/v2",
-    "/redoc/v3",
-    "/redoc/v1/swagger.json",
-    "/redoc/v2/swagger.json",
-    "/redoc/v3/swagger.json",
-    "/redocly",
-    "/redocly/",
-    "/redocly.html",
-    "/redocly.json",
-    "/redocly.yaml",
-    "/redocly/redoc.html",
-    "/redocly/redoc.json",
-    "/redocly/swagger.json",
-    "/redocly/openapi.json",
-    "/rapidoc",
-    "/rapidoc/",
-    "/rapidoc.html",
-    "/rapidoc.json",
-    "/rapidoc.yaml",
+#============================================================
+#REDOCEXTENSIVE
+#============================================================
+/redoc
+/redoc/
+/redoc.html
+/redoc.json
+/redoc.yaml
+/redoc/v1
+/redoc/v2
+/redoc/v3
+/redoc/v1/swagger.json
+/redoc/v2/swagger.json
+/redoc/v3/swagger.json
+/redocly
+/redocly/
+/redocly.html
+/redocly.json
+/redocly.yaml
+/redocly/redoc.html
+/redocly/redoc.json
+/redocly/swagger.json
+/redocly/openapi.json
+/rapidoc
+/rapidoc/
+/rapidoc.html
+/rapidoc.json
+/rapidoc.yaml
 
-    # ============================================================
-    # REFERENCE EXTENSIVE
-    # ============================================================
-    "/reference",
-    "/reference/",
-    "/reference.json",
-    "/reference.yaml",
-    "/reference.yml",
-    "/reference/swagger.json",
-    "/reference/openapi.json",
-    "/reference/api-docs",
-    "/reference/v1",
-    "/reference/v1/",
-    "/reference/v1/swagger.json",
-    "/reference/v2",
-    "/reference/v2/",
-    "/reference/v2/swagger.json",
-    "/reference/v3",
-    "/reference/v3/",
-    "/reference/v3/swagger.json",
-    "/reference/redoc",
-    "/reference/redoc.html",
-    "/reference/docs",
-    "/reference/docs/",
+#============================================================
+#REFERENCEEXTENSIVE
+#============================================================
+/reference
+/reference/
+/reference.json
+/reference.yaml
+/reference.yml
+/reference/swagger.json
+/reference/openapi.json
+/reference/api-docs
+/reference/v1
+/reference/v1/
+/reference/v1/swagger.json
+/reference/v2
+/reference/v2/
+/reference/v2/swagger.json
+/reference/v3
+/reference/v3/
+/reference/v3/swagger.json
+/reference/redoc
+/reference/redoc.html
+/reference/docs
+/reference/docs/
 
-    # ============================================================
-    # SPEC / APIDOC NAMING
-    # ============================================================
-    "/spec",
-    "/spec.json",
-    "/spec.yaml",
-    "/spec.yml",
-    "/spec/",
-    "/spec/swagger.json",
-    "/spec/openapi.json",
-    "/spec/openapi.yaml",
-    "/spec/openapi.yml",
-    "/spec/v1",
-    "/spec/v1/",
-    "/spec/v1/swagger.json",
-    "/spec/v1/openapi.json",
-    "/spec/v2",
-    "/spec/v2/",
-    "/spec/v2/swagger.json",
-    "/spec/v2/openapi.json",
-    "/spec/v3",
-    "/spec/v3/",
-    "/spec/v3/swagger.json",
-    "/spec/v3/openapi.json",
-    "/spec/api-docs",
-    "/spec/api-docs.json",
-    "/spec/redoc",
-    "/spec/redoc.html",
-    "/spec/docs",
-    "/spec/docs/",
-    "/apidoc",
-    "/apidoc/",
-    "/apidoc.json",
-    "/apidoc.yaml",
-    "/apidoc.yml",
-    "/apidoc/swagger.json",
-    "/apidoc/openapi.json",
-    "/apidoc/api-docs",
-    "/apidoc/v1",
-    "/apidoc/v1/",
-    "/apidoc/v1/swagger.json",
-    "/apidoc/v2",
-    "/apidoc/v2/",
-    "/apidoc/v2/swagger.json",
-    "/apidoc/v3",
-    "/apidoc/v3/",
-    "/apidoc/v3/swagger.json",
-    "/apidoc/redoc",
-    "/apidoc/redoc.html",
-    "/apidoc/docs",
-    "/apidoc/docs/",
-    "/apidocs",
-    "/apidocs/",
-    "/apidocs.json",
-    "/apidocs.yaml",
-    "/apidocs.yml",
-    "/apidocs/swagger.json",
-    "/apidocs/openapi.json",
-    "/apidocs/api-docs",
-    "/apidocs/v1",
-    "/apidocs/v1/",
-    "/apidocs/v1/swagger.json",
-    "/apidocs/v2",
-    "/apidocs/v2/",
-    "/apidocs/v2/swagger.json",
-    "/apidocs/v3",
-    "/apidocs/v3/",
-    "/apidocs/v3/swagger.json",
-    "/apidocs/redoc",
-    "/apidocs/redoc.html",
-    "/apidocs/docs",
-    "/apidocs/docs/",
+#============================================================
+#SPEC/APIDOCNAMING
+#============================================================
+/spec
+/spec.json
+/spec.yaml
+/spec.yml
+/spec/
+/spec/swagger.json
+/spec/openapi.json
+/spec/openapi.yaml
+/spec/openapi.yml
+/spec/v1
+/spec/v1/
+/spec/v1/swagger.json
+/spec/v1/openapi.json
+/spec/v2
+/spec/v2/
+/spec/v2/swagger.json
+/spec/v2/openapi.json
+/spec/v3
+/spec/v3/
+/spec/v3/swagger.json
+/spec/v3/openapi.json
+/spec/api-docs
+/spec/api-docs.json
+/spec/redoc
+/spec/redoc.html
+/spec/docs
+/spec/docs/
+/apidoc
+/apidoc/
+/apidoc.json
+/apidoc.yaml
+/apidoc.yml
+/apidoc/swagger.json
+/apidoc/openapi.json
+/apidoc/api-docs
+/apidoc/v1
+/apidoc/v1/
+/apidoc/v1/swagger.json
+/apidoc/v2
+/apidoc/v2/
+/apidoc/v2/swagger.json
+/apidoc/v3
+/apidoc/v3/
+/apidoc/v3/swagger.json
+/apidoc/redoc
+/apidoc/redoc.html
+/apidoc/docs
+/apidoc/docs/
+/apidocs
+/apidocs/
+/apidocs.json
+/apidocs.yaml
+/apidocs.yml
+/apidocs/swagger.json
+/apidocs/openapi.json
+/apidocs/api-docs
+/apidocs/v1
+/apidocs/v1/
+/apidocs/v1/swagger.json
+/apidocs/v2
+/apidocs/v2/
+/apidocs/v2/swagger.json
+/apidocs/v3
+/apidocs/v3/
+/apidocs/v3/swagger.json
+/apidocs/redoc
+/apidocs/redoc.html
+/apidocs/docs
+/apidocs/docs/
 
-    # ============================================================
-    # SCHEMA EXTENSIVE
-    # ============================================================
-    "/schema",
-    "/schema/",
-    "/schema.json",
-    "/schema.yml",
-    "/schema.yaml",
-    "/schema/swagger.json",
-    "/schema/openapi.json",
-    "/schema/openapi.yaml",
-    "/schema/openapi.yml",
-    "/schema/api-docs",
-    "/schema/api-docs.json",
-    "/schema/v1",
-    "/schema/v1/",
-    "/schema/v1/swagger.json",
-    "/schema/v1/openapi.json",
-    "/schema/v2",
-    "/schema/v2/",
-    "/schema/v2/swagger.json",
-    "/schema/v2/openapi.json",
-    "/schema/v3",
-    "/schema/v3/",
-    "/schema/v3/swagger.json",
-    "/schema/v3/openapi.json",
-    "/schema/redoc",
-    "/schema/redoc.html",
-    "/schema/docs",
-    "/schema/docs/",
-    "/schema.json?format=json",
-    "/schema.yaml?format=yaml",
+#============================================================
+#SCHEMAEXTENSIVE
+#============================================================
+/schema
+/schema/
+/schema.json
+/schema.yml
+/schema.yaml
+/schema/swagger.json
+/schema/openapi.json
+/schema/openapi.yaml
+/schema/openapi.yml
+/schema/api-docs
+/schema/api-docs.json
+/schema/v1
+/schema/v1/
+/schema/v1/swagger.json
+/schema/v1/openapi.json
+/schema/v2
+/schema/v2/
+/schema/v2/swagger.json
+/schema/v2/openapi.json
+/schema/v3
+/schema/v3/
+/schema/v3/swagger.json
+/schema/v3/openapi.json
+/schema/redoc
+/schema/redoc.html
+/schema/docs
+/schema/docs/
+/schema.json?format=json
+/schema.yaml?format=yaml
 
-    # ============================================================
-    # REST / PUBLIC / IDM PREFIXES
-    # ============================================================
-    "/rest/swagger.json",
-    "/rest/swagger-ui.html",
-    "/rest/api-docs",
-    "/rest/",
-    "/rest/swagger.yaml",
-    "/rest/swagger.yml",
-    "/rest/openapi.json",
-    "/rest/openapi.yaml",
-    "/rest/openapi.yml",
-    "/rest/api-docs.json",
-    "/rest/api-docs.yaml",
-    "/rest/docs",
-    "/rest/docs/",
-    "/rest/docs.json",
-    "/rest/apidoc",
-    "/rest/apidocs",
-    "/rest/schema",
-    "/rest/schema.json",
-    "/rest/spec",
-    "/rest/spec.json",
-    "/rest/redoc",
-    "/rest/redoc.html",
-    "/rest/swagger-ui",
-    "/rest/swagger-ui/",
-    "/rest/swagger-ui.html",
-    "/rest/v1/swagger.json",
-    "/rest/v1/api-docs",
-    "/rest/v1/openapi.json",
-    "/rest/v2/swagger.json",
-    "/rest/v2/api-docs",
-    "/rest/v2/openapi.json",
-    "/rest/v3/swagger.json",
-    "/rest/v3/api-docs",
-    "/rest/v3/openapi.json",
-    "/public/swagger.json",
-    "/public/swagger-ui.html",
-    "/public/openapi.json",
-    "/public/",
-    "/public/swagger.yaml",
-    "/public/swagger.yml",
-    "/public/openapi.yaml",
-    "/public/openapi.yml",
-    "/public/api-docs",
-    "/public/api-docs.json",
-    "/public/docs",
-    "/public/docs/",
-    "/public/docs.json",
-    "/public/apidoc",
-    "/public/apidocs",
-    "/public/schema",
-    "/public/schema.json",
-    "/public/spec",
-    "/public/spec.json",
-    "/public/redoc",
-    "/public/redoc.html",
-    "/public/swagger-ui",
-    "/public/swagger-ui/",
-    "/public/swagger-ui.html",
-    "/public/v1/swagger.json",
-    "/public/v1/api-docs",
-    "/public/v1/openapi.json",
-    "/public/v2/swagger.json",
-    "/public/v2/api-docs",
-    "/public/v2/openapi.json",
-    "/public/v3/swagger.json",
-    "/public/v3/api-docs",
-    "/public/v3/openapi.json",
-    "/idm/v2/api-docs",
-    "/idm/",
-    "/idm/swagger.json",
-    "/idm/swagger-ui.html",
-    "/idm/api-docs",
-    "/idm/openapi.json",
-    "/idm/v1/api-docs",
-    "/idm/v1/swagger.json",
-    "/idm/v1/openapi.json",
-    "/idm/v2/swagger.json",
-    "/idm/v2/openapi.json",
-    "/idm/v3/swagger.json",
-    "/idm/v3/openapi.json",
-    "/idm/docs",
-    "/idm/docs/",
-    "/idm/schema",
-    "/idm/schema.json",
-    "/classicapi/doc/",
+#============================================================
+#REST/PUBLIC/IDMPREFIXES
+#============================================================
+/rest/swagger.json
+/rest/swagger-ui.html
+/rest/api-docs
+/rest/
+/rest/swagger.yaml
+/rest/swagger.yml
+/rest/openapi.json
+/rest/openapi.yaml
+/rest/openapi.yml
+/rest/api-docs.json
+/rest/api-docs.yaml
+/rest/docs
+/rest/docs/
+/rest/docs.json
+/rest/apidoc
+/rest/apidocs
+/rest/schema
+/rest/schema.json
+/rest/spec
+/rest/spec.json
+/rest/redoc
+/rest/redoc.html
+/rest/swagger-ui
+/rest/swagger-ui/
+/rest/swagger-ui.html
+/rest/v1/swagger.json
+/rest/v1/api-docs
+/rest/v1/openapi.json
+/rest/v2/swagger.json
+/rest/v2/api-docs
+/rest/v2/openapi.json
+/rest/v3/swagger.json
+/rest/v3/api-docs
+/rest/v3/openapi.json
+/public/swagger.json
+/public/swagger-ui.html
+/public/openapi.json
+/public/
+/public/swagger.yaml
+/public/swagger.yml
+/public/openapi.yaml
+/public/openapi.yml
+/public/api-docs
+/public/api-docs.json
+/public/docs
+/public/docs/
+/public/docs.json
+/public/apidoc
+/public/apidocs
+/public/schema
+/public/schema.json
+/public/spec
+/public/spec.json
+/public/redoc
+/public/redoc.html
+/public/swagger-ui
+/public/swagger-ui/
+/public/swagger-ui.html
+/public/v1/swagger.json
+/public/v1/api-docs
+/public/v1/openapi.json
+/public/v2/swagger.json
+/public/v2/api-docs
+/public/v2/openapi.json
+/public/v3/swagger.json
+/public/v3/api-docs
+/public/v3/openapi.json
+/idm/v2/api-docs
+/idm/
+/idm/swagger.json
+/idm/swagger-ui.html
+/idm/api-docs
+/idm/openapi.json
+/idm/v1/api-docs
+/idm/v1/swagger.json
+/idm/v1/openapi.json
+/idm/v2/swagger.json
+/idm/v2/openapi.json
+/idm/v3/swagger.json
+/idm/v3/openapi.json
+/idm/docs
+/idm/docs/
+/idm/schema
+/idm/schema.json
+/classicapi/doc/
 
-    # ============================================================
-    # SWAGGER-RESOURCES (SPRING BOOT)
-    # ============================================================
-    "/swagger-resources",
-    "/swagger-resources/",
-    "/swagger-resources/configuration/ui",
-    "/swagger-resources/configuration/security",
-    "/swagger-resources/restservices/v2/api-docs",
-    "/swagger-resources/configuration/security/",
-    "/swagger-resources/configuration/ui/",
-    "/swagger-resources/restservices/v1/api-docs",
-    "/swagger-resources/restservices/v3/api-docs",
-    "/swagger-resources/swagger.json",
-    "/swagger-resources/openapi.json",
-    "/swagger-resources?group=default",
-    "/swagger-resources?group=public",
-    "/swagger-resources?group=internal",
-    "/swagger-resources?group=v1",
-    "/swagger-resources?group=v2",
-    "/swagger-resources?group=v3",
+#============================================================
+#SWAGGER-RESOURCES(SPRINGBOOT)
+#============================================================
+/swagger-resources
+/swagger-resources/
+/swagger-resources/configuration/ui
+/swagger-resources/configuration/security
+/swagger-resources/restservices/v2/api-docs
+/swagger-resources/configuration/security/
+/swagger-resources/configuration/ui/
+/swagger-resources/restservices/v1/api-docs
+/swagger-resources/restservices/v3/api-docs
+/swagger-resources/swagger.json
+/swagger-resources/openapi.json
+/swagger-resources?group=default
+/swagger-resources?group=public
+/swagger-resources?group=internal
+/swagger-resources?group=v1
+/swagger-resources?group=v2
+/swagger-resources?group=v3
 
-    # ============================================================
-    # WEBJARS
-    # ============================================================
-    "/webjars/swagger-ui/index.html",
-    "/webjars/swagger-ui/",
-    "/webjars/",
-    "/webjars/swagger-ui",
-    "/webjars/swagger-ui/3.52.5/index.html",
-    "/webjars/swagger-ui/4.1.3/index.html",
-    "/webjars/swagger-ui/4.15.5/index.html",
-    "/webjars/swagger-ui/5.0.0/index.html",
-    "/webjars/swagger-ui/swagger-ui.css",
-    "/webjars/swagger-ui/swagger-ui-bundle.js",
-    "/webjars/swagger-ui/swagger-ui-standalone-preset.js",
-    "/webjars/springfox-swagger-ui",
-    "/webjars/springfox-swagger-ui/",
-    "/webjars/springfox-swagger-ui/swagger-ui.html",
+#============================================================
+#WEBJARS
+#============================================================
+/webjars/swagger-ui/index.html
+/webjars/swagger-ui/
+/webjars/
+/webjars/swagger-ui
+/webjars/swagger-ui/3.52.5/index.html
+/webjars/swagger-ui/4.1.3/index.html
+/webjars/swagger-ui/4.15.5/index.html
+/webjars/swagger-ui/5.0.0/index.html
+/webjars/swagger-ui/swagger-ui.css
+/webjars/swagger-ui/swagger-ui-bundle.js
+/webjars/swagger-ui/swagger-ui-standalone-preset.js
+/webjars/springfox-swagger-ui
+/webjars/springfox-swagger-ui/
+/webjars/springfox-swagger-ui/swagger-ui.html
 
-    # ============================================================
-    # GATEWAY / ADMIN / MANAGEMENT
-    # ============================================================
-    "/gateway/swagger-ui.html",
-    "/gateway/v2/api-docs",
-    "/gateway/",
-    "/gateway/swagger.json",
-    "/gateway/swagger.yaml",
-    "/gateway/openapi.json",
-    "/gateway/openapi.yaml",
-    "/gateway/api-docs",
-    "/gateway/api-docs.json",
-    "/gateway/docs",
-    "/gateway/docs/",
-    "/gateway/v1/api-docs",
-    "/gateway/v1/swagger.json",
-    "/gateway/v1/openapi.json",
-    "/gateway/v2/swagger.json",
-    "/gateway/v2/openapi.json",
-    "/gateway/v3/swagger.json",
-    "/gateway/v3/openapi.json",
-    "/gateway/swagger-ui",
-    "/gateway/swagger-ui/",
-    "/gateway/swagger-ui.html",
-    "/gateway/redoc",
-    "/gateway/redoc.html",
-    "/gateway/schema",
-    "/gateway/schema.json",
-    "/gateway/spec",
-    "/gateway/spec.json",
-    "/actuator/swagger-ui.html",
-    "/actuator/",
-    "/actuator/swagger.json",
-    "/actuator/swagger.yaml",
-    "/actuator/openapi.json",
-    "/actuator/openapi.yaml",
-    "/actuator/api-docs",
-    "/actuator/api-docs.json",
-    "/actuator/docs",
-    "/actuator/docs/",
-    "/actuator/v2/api-docs",
-    "/actuator/v2/swagger.json",
-    "/actuator/v2/openapi.json",
-    "/actuator/v3/api-docs",
-    "/actuator/v3/swagger.json",
-    "/actuator/v3/openapi.json",
-    "/actuator/swagger-ui",
-    "/actuator/swagger-ui/",
-    "/actuator/swagger-ui.html",
-    "/actuator/redoc",
-    "/actuator/redoc.html",
-    "/actuator/schema",
-    "/actuator/schema.json",
-    "/actuator/spec",
-    "/actuator/spec.json",
-    "/management/swagger-ui.html",
-    "/management/",
-    "/management/swagger.json",
-    "/management/swagger.yaml",
-    "/management/openapi.json",
-    "/management/openapi.yaml",
-    "/management/api-docs",
-    "/management/api-docs.json",
-    "/management/docs",
-    "/management/docs/",
-    "/management/v2/api-docs",
-    "/management/v2/swagger.json",
-    "/management/v2/openapi.json",
-    "/management/v3/api-docs",
-    "/management/v3/swagger.json",
-    "/management/v3/openapi.json",
-    "/management/swagger-ui",
-    "/management/swagger-ui/",
-    "/management/swagger-ui.html",
-    "/management/redoc",
-    "/management/redoc.html",
-    "/management/schema",
-    "/management/schema.json",
-    "/management/spec",
-    "/management/spec.json",
-    "/admin/",
-    "/admin/swagger.json",
-    "/admin/swagger.yaml",
-    "/admin/openapi.json",
-    "/admin/openapi.yaml",
-    "/admin/api-docs",
-    "/admin/api-docs.json",
-    "/admin/docs",
-    "/admin/docs/",
-    "/admin/v1/swagger.json",
-    "/admin/v1/api-docs",
-    "/admin/v1/openapi.json",
-    "/admin/v2/swagger.json",
-    "/admin/v2/api-docs",
-    "/admin/v2/openapi.json",
-    "/admin/swagger-ui",
-    "/admin/swagger-ui/",
-    "/admin/swagger-ui.html",
-    "/admin/redoc",
-    "/admin/redoc.html",
-    "/admin/schema",
-    "/admin/schema.json",
+#============================================================
+#GATEWAY/ADMIN/MANAGEMENT
+#============================================================
+/gateway/swagger-ui.html
+/gateway/v2/api-docs
+/gateway/
+/gateway/swagger.json
+/gateway/swagger.yaml
+/gateway/openapi.json
+/gateway/openapi.yaml
+/gateway/api-docs
+/gateway/api-docs.json
+/gateway/docs
+/gateway/docs/
+/gateway/v1/api-docs
+/gateway/v1/swagger.json
+/gateway/v1/openapi.json
+/gateway/v2/swagger.json
+/gateway/v2/openapi.json
+/gateway/v3/swagger.json
+/gateway/v3/openapi.json
+/gateway/swagger-ui
+/gateway/swagger-ui/
+/gateway/swagger-ui.html
+/gateway/redoc
+/gateway/redoc.html
+/gateway/schema
+/gateway/schema.json
+/gateway/spec
+/gateway/spec.json
+/actuator/swagger-ui.html
+/actuator/
+/actuator/swagger.json
+/actuator/swagger.yaml
+/actuator/openapi.json
+/actuator/openapi.yaml
+/actuator/api-docs
+/actuator/api-docs.json
+/actuator/docs
+/actuator/docs/
+/actuator/v2/api-docs
+/actuator/v2/swagger.json
+/actuator/v2/openapi.json
+/actuator/v3/api-docs
+/actuator/v3/swagger.json
+/actuator/v3/openapi.json
+/actuator/swagger-ui
+/actuator/swagger-ui/
+/actuator/swagger-ui.html
+/actuator/redoc
+/actuator/redoc.html
+/actuator/schema
+/actuator/schema.json
+/actuator/spec
+/actuator/spec.json
+/management/swagger-ui.html
+/management/
+/management/swagger.json
+/management/swagger.yaml
+/management/openapi.json
+/management/openapi.yaml
+/management/api-docs
+/management/api-docs.json
+/management/docs
+/management/docs/
+/management/v2/api-docs
+/management/v2/swagger.json
+/management/v2/openapi.json
+/management/v3/api-docs
+/management/v3/swagger.json
+/management/v3/openapi.json
+/management/swagger-ui
+/management/swagger-ui/
+/management/swagger-ui.html
+/management/redoc
+/management/redoc.html
+/management/schema
+/management/schema.json
+/management/spec
+/management/spec.json
+/admin/
+/admin/swagger.json
+/admin/swagger.yaml
+/admin/openapi.json
+/admin/openapi.yaml
+/admin/api-docs
+/admin/api-docs.json
+/admin/docs
+/admin/docs/
+/admin/v1/swagger.json
+/admin/v1/api-docs
+/admin/v1/openapi.json
+/admin/v2/swagger.json
+/admin/v2/api-docs
+/admin/v2/openapi.json
+/admin/swagger-ui
+/admin/swagger-ui/
+/admin/swagger-ui.html
+/admin/redoc
+/admin/redoc.html
+/admin/schema
+/admin/schema.json
 
-    # ============================================================
-    # OBSCURE / OBFUSCATED
-    # ============================================================
-    "/__swagger__/",
-    "/__swagger__",
-    "/__swagger__/swagger.json",
-    "/__swagger__/openapi.json",
-    "/__swagger__/api-docs",
-    "/__swagger__/docs",
-    "/_swagger_/",
-    "/_swagger_",
-    "/_swagger_/swagger.json",
-    "/_swagger_/openapi.json",
-    "/_swagger_/api-docs",
-    "/_swagger_/docs",
-    "/.swagger/",
-    "/.swagger",
-    "/.swagger/swagger.json",
-    "/.swagger/openapi.json",
-    "/.swagger/api-docs",
-    "/.swagger/docs",
-    "/hidden/swagger.json",
-    "/hidden/",
-    "/hidden/swagger.yaml",
-    "/hidden/swagger.yml",
-    "/hidden/openapi.json",
-    "/hidden/openapi.yaml",
-    "/hidden/openapi.yml",
-    "/hidden/api-docs",
-    "/hidden/api-docs.json",
-    "/hidden/docs",
-    "/hidden/docs/",
-    "/hidden/v1/swagger.json",
-    "/hidden/v2/swagger.json",
-    "/hidden/v3/swagger.json",
-    "/internal/",
-    "/internal/swagger.json",
-    "/internal/swagger.yaml",
-    "/internal/openapi.json",
-    "/internal/openapi.yaml",
-    "/internal/api-docs",
-    "/internal/api-docs.json",
-    "/internal/docs",
-    "/internal/docs/",
-    "/internal/v1/swagger.json",
-    "/internal/v2/swagger.json",
-    "/internal/v3/swagger.json",
-    "/private/",
-    "/private/swagger.json",
-    "/private/swagger.yaml",
-    "/private/openapi.json",
-    "/private/openapi.yaml",
-    "/private/api-docs",
-    "/private/api-docs.json",
-    "/private/docs",
-    "/private/docs/",
-    "/private/v1/swagger.json",
-    "/private/v2/swagger.json",
-    "/private/v3/swagger.json",
-    "/secret/",
-    "/secret/swagger.json",
-    "/secret/openapi.json",
-    "/secret/api-docs",
-    "/secret/docs",
-    "/secret/v1/swagger.json",
-    "/secret/v2/swagger.json",
-    "/secret/v3/swagger.json",
+#============================================================
+#OBSCURE/OBFUSCATED
+#============================================================
+/__swagger__/
+/__swagger__
+/__swagger__/swagger.json
+/__swagger__/openapi.json
+/__swagger__/api-docs
+/__swagger__/docs
+/_swagger_/
+/_swagger_
+/_swagger_/swagger.json
+/_swagger_/openapi.json
+/_swagger_/api-docs
+/_swagger_/docs
+/.swagger/
+/.swagger
+/.swagger/swagger.json
+/.swagger/openapi.json
+/.swagger/api-docs
+/.swagger/docs
+/hidden/swagger.json
+/hidden/
+/hidden/swagger.yaml
+/hidden/swagger.yml
+/hidden/openapi.json
+/hidden/openapi.yaml
+/hidden/openapi.yml
+/hidden/api-docs
+/hidden/api-docs.json
+/hidden/docs
+/hidden/docs/
+/hidden/v1/swagger.json
+/hidden/v2/swagger.json
+/hidden/v3/swagger.json
+/internal/
+/internal/swagger.json
+/internal/swagger.yaml
+/internal/openapi.json
+/internal/openapi.yaml
+/internal/api-docs
+/internal/api-docs.json
+/internal/docs
+/internal/docs/
+/internal/v1/swagger.json
+/internal/v2/swagger.json
+/internal/v3/swagger.json
+/private/
+/private/swagger.json
+/private/swagger.yaml
+/private/openapi.json
+/private/openapi.yaml
+/private/api-docs
+/private/api-docs.json
+/private/docs
+/private/docs/
+/private/v1/swagger.json
+/private/v2/swagger.json
+/private/v3/swagger.json
+/secret/
+/secret/swagger.json
+/secret/openapi.json
+/secret/api-docs
+/secret/docs
+/secret/v1/swagger.json
+/secret/v2/swagger.json
+/secret/v3/swagger.json
 
-    # ============================================================
-    # ENVIRONMENT PREFIXES (DEV/STAGING/PROD/TEST/BETA)
-    # ============================================================
-    "/dev/swagger.json",
-    "/dev/",
-    "/dev/swagger.yaml",
-    "/dev/openapi.json",
-    "/dev/openapi.yaml",
-    "/dev/api-docs",
-    "/dev/api-docs.json",
-    "/dev/docs",
-    "/dev/docs/",
-    "/dev/v1/swagger.json",
-    "/dev/v2/swagger.json",
-    "/dev/v3/swagger.json",
-    "/dev/swagger-ui",
-    "/dev/swagger-ui/",
-    "/dev/swagger-ui.html",
-    "/staging/swagger.json",
-    "/staging/",
-    "/staging/swagger.yaml",
-    "/staging/openapi.json",
-    "/staging/openapi.yaml",
-    "/staging/api-docs",
-    "/staging/api-docs.json",
-    "/staging/docs",
-    "/staging/docs/",
-    "/staging/v1/swagger.json",
-    "/staging/v2/swagger.json",
-    "/staging/v3/swagger.json",
-    "/staging/swagger-ui",
-    "/staging/swagger-ui/",
-    "/staging/swagger-ui.html",
-    "/prod/swagger.json",
-    "/prod/",
-    "/prod/swagger.yaml",
-    "/prod/openapi.json",
-    "/prod/openapi.yaml",
-    "/prod/api-docs",
-    "/prod/api-docs.json",
-    "/prod/docs",
-    "/prod/docs/",
-    "/prod/v1/swagger.json",
-    "/prod/v2/swagger.json",
-    "/prod/v3/swagger.json",
-    "/prod/swagger-ui",
-    "/prod/swagger-ui/",
-    "/prod/swagger-ui.html",
-    "/test/",
-    "/test/swagger.json",
-    "/test/openapi.json",
-    "/test/api-docs",
-    "/test/docs",
-    "/test/v1/swagger.json",
-    "/test/v2/swagger.json",
-    "/test/v3/swagger.json",
-    "/beta/",
-    "/beta/swagger.json",
-    "/beta/openapi.json",
-    "/beta/api-docs",
-    "/beta/docs",
-    "/beta/v1/swagger.json",
-    "/beta/v2/swagger.json",
-    "/beta/v3/swagger.json",
-    "/Prod/swagger.json",
-    "/Prod/openapi.json",
-    "/Prod/api-docs",
-    "/Prod/docs",
-    "/Prod/v1/swagger.json",
-    "/Prod/v2/swagger.json",
-    "/Prod/v3/swagger.json",
-    "/Staging/swagger.json",
-    "/Staging/openapi.json",
-    "/Staging/api-docs",
-    "/Staging/docs",
-    "/Staging/v1/swagger.json",
-    "/Staging/v2/swagger.json",
-    "/Staging/v3/swagger.json",
-    "/Dev/swagger.json",
-    "/Dev/openapi.json",
-    "/Dev/api-docs",
-    "/Dev/docs",
-    "/Dev/v1/swagger.json",
-    "/Dev/v2/swagger.json",
-    "/Dev/v3/swagger.json",
-    "/local/swagger.json",
-    "/local/openapi.json",
-    "/local/api-docs",
-    "/local/docs",
-    "/local/v1/swagger.json",
-    "/local/v2/swagger.json",
+#============================================================
+#ENVIRONMENTPREFIXES(DEV/STAGING/PROD/TEST/BETA)
+#============================================================
+/dev/swagger.json
+/dev/
+/dev/swagger.yaml
+/dev/openapi.json
+/dev/openapi.yaml
+/dev/api-docs
+/dev/api-docs.json
+/dev/docs
+/dev/docs/
+/dev/v1/swagger.json
+/dev/v2/swagger.json
+/dev/v3/swagger.json
+/dev/swagger-ui
+/dev/swagger-ui/
+/dev/swagger-ui.html
+/staging/swagger.json
+/staging/
+/staging/swagger.yaml
+/staging/openapi.json
+/staging/openapi.yaml
+/staging/api-docs
+/staging/api-docs.json
+/staging/docs
+/staging/docs/
+/staging/v1/swagger.json
+/staging/v2/swagger.json
+/staging/v3/swagger.json
+/staging/swagger-ui
+/staging/swagger-ui/
+/staging/swagger-ui.html
+/prod/swagger.json
+/prod/
+/prod/swagger.yaml
+/prod/openapi.json
+/prod/openapi.yaml
+/prod/api-docs
+/prod/api-docs.json
+/prod/docs
+/prod/docs/
+/prod/v1/swagger.json
+/prod/v2/swagger.json
+/prod/v3/swagger.json
+/prod/swagger-ui
+/prod/swagger-ui/
+/prod/swagger-ui.html
+/test/
+/test/swagger.json
+/test/openapi.json
+/test/api-docs
+/test/docs
+/test/v1/swagger.json
+/test/v2/swagger.json
+/test/v3/swagger.json
+/beta/
+/beta/swagger.json
+/beta/openapi.json
+/beta/api-docs
+/beta/docs
+/beta/v1/swagger.json
+/beta/v2/swagger.json
+/beta/v3/swagger.json
+/Prod/swagger.json
+/Prod/openapi.json
+/Prod/api-docs
+/Prod/docs
+/Prod/v1/swagger.json
+/Prod/v2/swagger.json
+/Prod/v3/swagger.json
+/Staging/swagger.json
+/Staging/openapi.json
+/Staging/api-docs
+/Staging/docs
+/Staging/v1/swagger.json
+/Staging/v2/swagger.json
+/Staging/v3/swagger.json
+/Dev/swagger.json
+/Dev/openapi.json
+/Dev/api-docs
+/Dev/docs
+/Dev/v1/swagger.json
+/Dev/v2/swagger.json
+/Dev/v3/swagger.json
+/local/swagger.json
+/local/openapi.json
+/local/api-docs
+/local/docs
+/local/v1/swagger.json
+/local/v2/swagger.json
 
-    # ============================================================
-    # GRAPHQL ADJACENTS
-    # ============================================================
-    "/graphql/schema.json",
-    "/graphiql",
-    "/graphql/",
-    "/graphql/schema",
-    "/graphql/schema.yaml",
-    "/graphql/schema.yml",
-    "/graphql/openapi.json",
-    "/graphql/swagger.json",
-    "/graphql/api-docs",
-    "/graphql/docs",
-    "/graphql/docs/",
-    "/graphql/v1/schema.json",
-    "/graphql/v2/schema.json",
-    "/graphql/v3/schema.json",
-    "/graphiql/",
-    "/graphiql.html",
-    "/graphiql.css",
-    "/graphiql.js",
-    "/graphiql.min.js",
-    "/graphql-playground",
-    "/graphql-playground/",
-    "/graphql-playground/index.html",
-    "/graphql-playground/static/css/index.css",
-    "/graphql-playground/static/js/middleware.js",
-    "/altair",
-    "/altair/",
-    "/altair/index.html",
-    "/altair/static/css/main.css",
-    "/altair/static/js/main.js",
-    "/v1/graphql",
-    "/v1/graphql/",
-    "/v1alpha1/graphql",
-    "/v2/graphql",
-    "/console",
-    "/console/",
-    "/console/api-explorer",
+#============================================================
+#GRAPHQLADJACENTS
+#============================================================
+/graphql/schema.json
+/graphiql
+/graphql/
+/graphql/schema
+/graphql/schema.yaml
+/graphql/schema.yml
+/graphql/openapi.json
+/graphql/swagger.json
+/graphql/api-docs
+/graphql/docs
+/graphql/docs/
+/graphql/v1/schema.json
+/graphql/v2/schema.json
+/graphql/v3/schema.json
+/graphiql/
+/graphiql.html
+/graphiql.css
+/graphiql.js
+/graphiql.min.js
+/graphql-playground
+/graphql-playground/
+/graphql-playground/index.html
+/graphql-playground/static/css/index.css
+/graphql-playground/static/js/middleware.js
+/altair
+/altair/
+/altair/index.html
+/altair/static/css/main.css
+/altair/static/js/main.js
+/v1/graphql
+/v1/graphql/
+/v1alpha1/graphql
+/v2/graphql
+/console
+/console/
+/console/api-explorer
 
-    # ============================================================
-    # NODE/EXPRESS/NESTJS CONVENTIONS
-    # ============================================================
-    "/api-json",
-    "/api/api-json",
-    "/docs-json",
-    "/docs.json",
-    "/api-json/",
-    "/api-json?group=default",
-    "/api-json?group=public",
-    "/api-json?group=internal",
-    "/api-json?group=v1",
-    "/api-json?group=v2",
-    "/api-json?group=v3",
-    "/api/api-json",
-    "/api/api-json/",
-    "/api/api-json?group=default",
-    "/api/api-json?group=v1",
-    "/api/api-json?group=v2",
-    "/api/api-json?group=v3",
-    "/docs-json/",
-    "/docs-json?group=default",
-    "/docs-json?group=public",
-    "/docs-json?group=internal",
-    "/docs-json?group=v1",
-    "/docs-json?group=v2",
-    "/docs-json?group=v3",
-    "/docs.json?group=default",
-    "/docs.json?group=v1",
-    "/docs.json?group=v2",
-    "/docs.json?group=v3",
-    "/swagger-json",
-    "/swagger-json/",
-    "/swagger-json?group=default",
-    "/swagger-json?group=v1",
-    "/swagger-json?group=v2",
-    "/swagger-json?group=v3",
-    "/swagger.json?group=default",
-    "/swagger.json?group=public",
-    "/swagger.json?group=internal",
-    "/swagger.json?group=v1",
-    "/swagger.json?group=v2",
-    "/swagger.json?group=v3",
-    "/swagger.json?format=json",
-    "/swagger.json?callback=callback",
-    "/swagger.json?callback=test",
-    "/swagger.json?origin=*",
-    "/swagger.json?cors=true",
-    "/swagger.yaml?format=yaml",
-    "/swagger.yml?format=yaml",
+#============================================================
+#NODE/EXPRESS/NESTJSCONVENTIONS
+#============================================================
+/api-json
+/api/api-json
+/docs-json
+/docs.json
+/api-json/
+/api-json?group=default
+/api-json?group=public
+/api-json?group=internal
+/api-json?group=v1
+/api-json?group=v2
+/api-json?group=v3
+/api/api-json
+/api/api-json/
+/api/api-json?group=default
+/api/api-json?group=v1
+/api/api-json?group=v2
+/api/api-json?group=v3
+/docs-json/
+/docs-json?group=default
+/docs-json?group=public
+/docs-json?group=internal
+/docs-json?group=v1
+/docs-json?group=v2
+/docs-json?group=v3
+/docs.json?group=default
+/docs.json?group=v1
+/docs.json?group=v2
+/docs.json?group=v3
+/swagger-json
+/swagger-json/
+/swagger-json?group=default
+/swagger-json?group=v1
+/swagger-json?group=v2
+/swagger-json?group=v3
+/swagger.json?group=default
+/swagger.json?group=public
+/swagger.json?group=internal
+/swagger.json?group=v1
+/swagger.json?group=v2
+/swagger.json?group=v3
+/swagger.json?format=json
+/swagger.json?callback=callback
+/swagger.json?callback=test
+/swagger.json?origin=*
+/swagger.json?cors=true
+/swagger.yaml?format=yaml
+/swagger.yml?format=yaml
 
-    # ============================================================
-    # FASTAPI / PYTHON FRAMEWORKS
-    # ============================================================
-    "/docs?format=json",
-    "/docs/openapi.json?format=json",
-    "/redoc?format=json",
-    "/docs/redoc",
-    "/docs/redoc.html",
-    "/docs/swagger-ui-standalone-preset.js",
-    "/docs/swagger-ui-bundle.js",
-    "/docs/swagger-ui.css",
+#============================================================
+#FASTAPI/PYTHONFRAMEWORKS
+#============================================================
+/docs?format=json
+/docs/openapi.json?format=json
+/redoc?format=json
+/docs/redoc
+/docs/redoc.html
+/docs/swagger-ui-standalone-preset.js
+/docs/swagger-ui-bundle.js
+/docs/swagger-ui.css
 
-    # ============================================================
-    # DJANGO REST FRAMEWORK
-    # ============================================================
-    "/api/schema/",
-    "/api/schema/?format=json",
-    "/api/schema/?format=yaml",
-    "/api/schema/?format=openapi",
-    "/api/schema/swagger-ui",
-    "/api/schema/swagger-ui/",
-    "/api/schema/redoc",
-    "/api/schema/redoc/",
+#============================================================
+#DJANGORESTFRAMEWORK
+#============================================================
+/api/schema/
+/api/schema/?format=json
+/api/schema/?format=yaml
+/api/schema/?format=openapi
+/api/schema/swagger-ui
+/api/schema/swagger-ui/
+/api/schema/redoc
+/api/schema/redoc/
 
-    # ============================================================
-    # LARAVEL / PHP
-    # ============================================================
-    "/api/documentation",
-    "/api/documentation/",
-    "/api/documentation.json",
+#============================================================
+#LARAVEL/PHP
+#============================================================
+/api/documentation
+/api/documentation/
+/api/documentation.json
 
-    # ============================================================
-    # RAILS / RUBY
-    # ============================================================
-    "/api/swagger_doc",
-    "/api/swagger_doc/",
-    "/api/swagger_doc.json",
-    "/swagger_doc",
-    "/swagger_doc/",
-    "/swagger_doc.json",
+#============================================================
+#RAILS/RUBY
+#============================================================
+/api/swagger_doc
+/api/swagger_doc/
+/api/swagger_doc.json
+/swagger_doc
+/swagger_doc/
+/swagger_doc.json
 
-    # ============================================================
-    # GO / GIN / ECHO
-    # ============================================================
-    "/swagger/index.html",
-    "/swagger/doc.json",
-    "/swagger/doc.yaml",
-    "/swagger/doc.yml",
-    "/swagger/docs.json",
-    "/swagger/docs.yaml",
-    "/swagger/docs.yml",
+#============================================================
+#GO/GIN/ECHO
+#============================================================
+/swagger/index.html
+/swagger/doc.json
+/swagger/doc.yaml
+/swagger/doc.yml
+/swagger/docs.json
+/swagger/docs.yaml
+/swagger/docs.yml
 
-    # ============================================================
-    # ASP.NET CORE
-    # ============================================================
-    "/swagger/v1/swagger.yaml",
-    "/swagger/v2/swagger.yaml",
-    "/swagger/v3/swagger.yaml",
-    "/swagger/v1/openapi.json",
-    "/swagger/v2/openapi.json",
-    "/swagger/v3/openapi.json",
-    "/swagger/v1/openapi.yaml",
-    "/swagger/v2/openapi.yaml",
-    "/swagger/v3/openapi.yaml",
+#============================================================
+#ASP.NETCORE
+#============================================================
+/swagger/v1/swagger.yaml
+/swagger/v2/swagger.yaml
+/swagger/v3/swagger.yaml
+/swagger/v1/openapi.json
+/swagger/v2/openapi.json
+/swagger/v3/openapi.json
+/swagger/v1/openapi.yaml
+/swagger/v2/openapi.yaml
+/swagger/v3/openapi.yaml
 
-    # ============================================================
-    # SPRING BOOT EXTENSIVE
-    # ============================================================
-    "/v2/api-docs?group=default",
-    "/v2/api-docs?group=public",
-    "/v2/api-docs?group=internal",
-    "/v2/api-docs?group=v1",
-    "/v2/api-docs?group=v2",
-    "/v2/api-docs?group=v3",
-    "/v3/api-docs?group=default",
-    "/v3/api-docs?group=public",
-    "/v3/api-docs?group=internal",
-    "/v3/api-docs?group=v1",
-    "/v3/api-docs?group=v2",
-    "/v3/api-docs?group=v3",
-    "/v3/api-docs/swagger-config",
-    "/v3/api-docs/swagger-config.json",
+#============================================================
+#SPRINGBOOTEXTENSIVE
+#============================================================
+/v2/api-docs?group=default
+/v2/api-docs?group=public
+/v2/api-docs?group=internal
+/v2/api-docs?group=v1
+/v2/api-docs?group=v2
+/v2/api-docs?group=v3
+/v3/api-docs?group=default
+/v3/api-docs?group=public
+/v3/api-docs?group=internal
+/v3/api-docs?group=v1
+/v3/api-docs?group=v2
+/v3/api-docs?group=v3
+/v3/api-docs/swagger-config
+/v3/api-docs/swagger-config.json
 
-    # ============================================================
-    # KONG GATEWAY
-    # ============================================================
-    "/kong/swagger.json",
-    "/kong/openapi.json",
-    "/kong/api-docs",
-    "/kong/docs",
-    "/kong/v1/swagger.json",
-    "/kong/v2/swagger.json",
-    "/kong/v3/swagger.json",
+#============================================================
+#KONGGATEWAY
+#============================================================
+/kong/swagger.json
+/kong/openapi.json
+/kong/api-docs
+/kong/docs
+/kong/v1/swagger.json
+/kong/v2/swagger.json
+/kong/v3/swagger.json
 
-    # ============================================================
-    # KUBERNETES / MICROSERVICES
-    # ============================================================
-    "/service/swagger.json",
-    "/service/openapi.json",
-    "/service/api-docs",
-    "/service/docs",
-    "/service/v1/swagger.json",
-    "/service/v2/swagger.json",
-    "/service/v3/swagger.json",
-    "/services/swagger.json",
-    "/services/openapi.json",
-    "/services/api-docs",
-    "/services/docs",
-    "/services/v1/swagger.json",
-    "/services/v2/swagger.json",
-    "/services/v3/swagger.json",
-    "/svc/swagger.json",
-    "/svc/openapi.json",
-    "/svc/api-docs",
-    "/svc/docs",
-    "/svc/v1/swagger.json",
-    "/svc/v2/swagger.json",
+#============================================================
+#KUBERNETES/MICROSERVICES
+#============================================================
+/service/swagger.json
+/service/openapi.json
+/service/api-docs
+/service/docs
+/service/v1/swagger.json
+/service/v2/swagger.json
+/service/v3/swagger.json
+/services/swagger.json
+/services/openapi.json
+/services/api-docs
+/services/docs
+/services/v1/swagger.json
+/services/v2/swagger.json
+/services/v3/swagger.json
+/svc/swagger.json
+/svc/openapi.json
+/svc/api-docs
+/svc/docs
+/svc/v1/swagger.json
+/svc/v2/swagger.json
 
-    # ============================================================
-    # HEALTH / INFO ENDPOINTS
-    # ============================================================
-    "/info",
-    "/info/",
-    "/info.json",
-    "/info/swagger.json",
-    "/info/openapi.json",
-    "/info/api-docs",
-    "/health/info",
-    "/health/info/",
-    "/health/info.json",
+#============================================================
+#HEALTH/INFOENDPOINTS
+#============================================================
+/info
+/info/
+/info.json
+/info/swagger.json
+/info/openapi.json
+/info/api-docs
+/health/info
+/health/info/
+/health/info.json
 
-    # ============================================================
-    # WSDL / SOAP (API RECON ADJACENT)
-    # ============================================================
-    "/wsdl",
-    "/wsdl/",
-    "/wsdl?wsdl",
-    "/service?wsdl",
-    "/services?wsdl",
+#============================================================
+#WSDL/SOAP(APIRECONADJACENT)
+#============================================================
+/wsdl
+/wsdl/
+/wsdl?wsdl
+/service?wsdl
+/services?wsdl
 
-    # ============================================================
-    # MISCELLANEOUS FRAMEWORK-SPECIFIC
-    # ============================================================
-    "/explorer",
-    "/explorer/",
-    "/explorer/swagger.json",
-    "/explorer/openapi.json",
-    "/explorer/api-docs",
-    "/explorer.html",
-    "/explorer/index.html",
-    "/api-explorer",
-    "/api-explorer/",
-    "/api-explorer/swagger.json",
-    "/api-explorer/openapi.json",
-    "/api-explorer/api-docs",
-    "/api-explorer.html",
-    "/api-explorer/index.html",
-    "/api-explorer/v1",
-    "/api-explorer/v2",
-    "/api-explorer/v3",
-    "/api-explorer/v1/swagger.json",
-    "/api-explorer/v2/swagger.json",
-    "/api-explorer/v3/swagger.json",
+#============================================================
+#MISCELLANEOUSFRAMEWORK-SPECIFIC
+#============================================================
+/explorer
+/explorer/
+/explorer/swagger.json
+/explorer/openapi.json
+/explorer/api-docs
+/explorer.html
+/explorer/index.html
+/api-explorer
+/api-explorer/
+/api-explorer/swagger.json
+/api-explorer/openapi.json
+/api-explorer/api-docs
+/api-explorer.html
+/api-explorer/index.html
+/api-explorer/v1
+/api-explorer/v2
+/api-explorer/v3
+/api-explorer/v1/swagger.json
+/api-explorer/v2/swagger.json
+/api-explorer/v3/swagger.json
 
-    # ============================================================
-    # QUARKUS / MICRONAUT
-    # ============================================================
-    "/q/swagger-ui",
-    "/q/swagger-ui/",
-    "/q/swagger-ui/index.html",
-    "/q/openapi",
-    "/q/openapi/",
-    "/q/openapi.json",
-    "/q/openapi.yaml",
-    "/q/openapi.yml",
-    "/q/api-docs",
-    "/q/api-docs.json",
-    "/q/docs",
-    "/q/docs/",
-    "/q/v1/swagger.json",
-    "/q/v2/swagger.json",
-    "/q/v3/swagger.json",
+#============================================================
+#QUARKUS/MICRONAUT
+#============================================================
+/q/swagger-ui
+/q/swagger-ui/
+/q/swagger-ui/index.html
+/q/openapi
+/q/openapi/
+/q/openapi.json
+/q/openapi.yaml
+/q/openapi.yml
+/q/api-docs
+/q/api-docs.json
+/q/docs
+/q/docs/
+/q/v1/swagger.json
+/q/v2/swagger.json
+/q/v3/swagger.json
 
-    # ============================================================
-    # MICRONAUT
-    # ============================================================
-    "/swagger-ui",
-    "/swagger-ui/",
-    "/swagger-ui/index.html",
-    "/swagger-ui/swagger-ui.css",
-    "/swagger-ui/swagger-ui-bundle.js",
+#============================================================
+#MICRONAUT
+#============================================================
+/swagger-ui
+/swagger-ui/
+/swagger-ui/index.html
+/swagger-ui/swagger-ui.css
+/swagger-ui/swagger-ui-bundle.js
 
-    # ============================================================
-    # FLASK-RESTX / FLASGGER
-    # ============================================================
-    "/swaggerui",
-    "/swaggerui/",
-    "/swaggerui/index.html",
-    "/swaggerui/swagger-ui-standalone-preset.js",
-    "/swaggerui/swagger-ui-bundle.js",
-    "/swaggerui/swagger-ui.css",
+#============================================================
+#FLASK-RESTX/FLASGGER
+#============================================================
+/swaggerui
+/swaggerui/
+/swaggerui/index.html
+/swaggerui/swagger-ui-standalone-preset.js
+/swaggerui/swagger-ui-bundle.js
+/swaggerui/swagger-ui.css
 
-    # ============================================================
-    # TYPESCRIPT / NEXTJS / NUXT
-    # ============================================================
-    "/api/openapi",
-    "/api/openapi/",
-    "/api/openapi.json",
-    "/api/openapi.yaml",
-    "/api/openapi.yml",
-    "/api/openapi/v1",
-    "/api/openapi/v2",
-    "/api/openapi/v3",
+#============================================================
+#TYPESCRIPT/NEXTJS/NUXT
+#============================================================
+/api/openapi
+/api/openapi/
+/api/openapi.json
+/api/openapi.yaml
+/api/openapi.yml
+/api/openapi/v1
+/api/openapi/v2
+/api/openapi/v3
 
-    # ============================================================
-    # POSTMAN / INSOMNIA COLLECTIONS
-    # ============================================================
-    "/postman-collection.json",
-    "/postman_collection.json",
-    "/postman.json",
-    "/insomnia.json",
-    "/collection.json",
-    "/api-collection.json",
+#============================================================
+#POSTMAN/INSOMNIACOLLECTIONS
+#============================================================
+/postman-collection.json
+/postman_collection.json
+/postman.json
+/insomnia.json
+/collection.json
+/api-collection.json
 
-    # ============================================================
-    # CASE VARIANTS (case-sensitive frameworks)
-    # ============================================================
-    "/Swagger.json",
-    "/Swagger.yaml",
-    "/OpenAPI.json",
-    "/OpenAPI.yaml",
-    "/API-Docs",
-    "/API-Docs.json",
-    "/Swagger-UI",
-    "/Swagger-UI/",
-    "/Swagger-UI.html",
+#============================================================
+#CASEVARIANTS(case-sensitiveframeworks)
+#============================================================
+/Swagger.json
+/Swagger.yaml
+/OpenAPI.json
+/OpenAPI.yaml
+/API-Docs
+/API-Docs.json
+/Swagger-UI
+/Swagger-UI/
+/Swagger-UI.html
 
-    # ============================================================
-    # TRAILING SLASH VARIANTS
-    # ============================================================
-    "/swagger.json/",
-    "/swagger.yaml/",
-    "/swagger.yml/",
-    "/openapi.json/",
-    "/openapi.yaml/",
-    "/openapi.yml/",
-    "/api-docs.json/",
-    "/api-docs.yaml/",
+#============================================================
+#TRAILINGSLASHVARIANTS
+#============================================================
+/swagger.json/
+/swagger.yaml/
+/swagger.yml/
+/openapi.json/
+/openapi.yaml/
+/openapi.yml/
+/api-docs.json/
+/api-docs.yaml/
