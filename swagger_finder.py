@@ -173,18 +173,21 @@ def check_url(url: str, timeout: int) -> Result:
 
 
 def print_result(result: Result, verbose: bool) -> None:
+    """Print a single scan result immediately and flush stdout so it shows
+    up right away — even when output is piped/redirected and would
+    otherwise sit in a buffer until the script finishes."""
     if result.error:
         if verbose:
-            print(f"{RED}[!] {result.url} -> ERROR: {result.error}{RESET}")
+            print(f"{RED}[!] {result.url} -> ERROR: {result.error}{RESET}", flush=True)
         return
 
     if result.is_match:
-        print(f"{GREEN}[+] {result.status_code} FOUND: {result.url}{RESET}")
+        print(f"{GREEN}[+] {result.status_code} FOUND: {result.url}{RESET}", flush=True)
     elif result.redirect_to and result.status_code in (301, 302, 307, 308):
-        print(f"{YELLOW}[→] {result.status_code} {result.url} -> {result.redirect_to}{RESET}")
+        print(f"{YELLOW}[→] {result.status_code} {result.url} -> {result.redirect_to}{RESET}", flush=True)
     elif verbose:
         color = RESET if result.status_code == 404 else BLUE
-        print(f"{color}[.] {result.status_code} {result.url}{RESET}")
+        print(f"{color}[.] {result.status_code} {result.url}{RESET}", flush=True)
 
 
 def normalize_base_url(raw: str) -> str:
@@ -194,8 +197,9 @@ def normalize_base_url(raw: str) -> str:
     return base
 
 
-def print_progress(completed: int, total: int) -> None:
-    """Overwrite the current terminal line with a live N/Total counter.
+def print_progress(completed: int, total: int, found: int) -> None:
+    """Overwrite the current terminal line with a live N/Total counter,
+    including a running tally of matches found so far.
 
     No-ops when stdout isn't a real terminal (e.g. piped to a file or CI
     log), since carriage-return redraws just produce garbled output there.
@@ -203,7 +207,11 @@ def print_progress(completed: int, total: int) -> None:
     if not sys.stdout.isatty():
         return
     pct = (completed / total * 100) if total else 0
-    line = f"{BLUE}[*] Progress: {completed}/{total} checked ({pct:5.1f}%){RESET}"
+    found_color = GREEN if found else BLUE
+    line = (
+        f"{BLUE}[*] Progress: {completed}/{total} checked ({pct:5.1f}%)"
+        f"  {found_color}Found: {found}{RESET}"
+    )
     # Pad with spaces to clear any leftover characters from a longer previous line
     sys.stdout.write("\r" + line + " " * 10)
     sys.stdout.flush()
@@ -213,6 +221,7 @@ def run_scan(base_url: str, wordlist: List[str], timeout: int, workers: int, ver
     results: List[Result] = []
     total = len(wordlist)
     completed = 0
+    found = 0
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
         futures = {
@@ -222,6 +231,8 @@ def run_scan(base_url: str, wordlist: List[str], timeout: int, workers: int, ver
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
             completed += 1
+            if result.is_match:
+                found += 1
 
             # If this result has something worth printing, clear the progress
             # line first so the message isn't smashed together with it.
@@ -229,7 +240,7 @@ def run_scan(base_url: str, wordlist: List[str], timeout: int, workers: int, ver
                 sys.stdout.write("\r" + " " * 80 + "\r")
 
             print_result(result, verbose)
-            print_progress(completed, total)
+            print_progress(completed, total, found)
 
             results.append(result)
 
