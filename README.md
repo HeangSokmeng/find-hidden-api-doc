@@ -12,8 +12,9 @@ A fast, multi-threaded Swagger / OpenAPI documentation endpoint discovery tool. 
 |---|---|
 | `swagger_finder.py` | Main scanner script |
 | `swagger_wordlist.txt` | Default wordlist (135 paths), one entry per line |
+| `requirements.txt` | Python dependencies |
 
-Keep both files in the same directory — the script looks for `swagger_wordlist.txt` next to itself by default.
+Keep all three files in the same directory — the script looks for `swagger_wordlist.txt` next to itself by default.
 
 ---
 
@@ -29,48 +30,49 @@ Kali ships with Python 3 pre-installed. Check your version:
 python3 --version
 ```
 
+Dependencies are listed in `requirements.txt`:
+
+```
+requests>=2.31.0
+urllib3>=2.0.0
+```
+
 ---
 
 ## 2. Installation on Kali
 
 ### Step 1 — Copy the files onto your Kali machine
 
-Place `swagger_finder.py` and `swagger_wordlist.txt` in a working directory, e.g.:
+Place `swagger_finder.py`, `swagger_wordlist.txt`, and `requirements.txt` in a working directory, e.g.:
 
 ```bash
 mkdir -p ~/tools/kkmab-swagger
 cd ~/tools/kkmab-swagger
-# copy swagger_finder.py and swagger_wordlist.txt here
+# copy swagger_finder.py, swagger_wordlist.txt, and requirements.txt here
 ```
 
-### Step 2 — Install the Python dependency
+### Step 2 — Install dependencies
 
-The script only needs the `requests` library beyond the standard library. Kali's system Python is externally managed, so use one of the following:
+Kali's system Python is externally managed (PEP 668), so a plain `pip install` will usually be blocked. Use one of the following:
 
-**Option A — pipx (recommended, isolated environment)**
-```bash
-sudo apt update
-sudo apt install -y pipx
-pipx install requests
-```
-
-**Option B — virtual environment (recommended for scripts)**
+**Option A — virtual environment (recommended)**
 ```bash
 sudo apt install -y python3-venv
 python3 -m venv venv
 source venv/bin/activate
-pip install requests
+pip install -r requirements.txt
 ```
+Remember to `source venv/bin/activate` again each time you open a new terminal to run the script.
 
-**Option C — apt package (simplest, system-wide)**
+**Option B — apt package (simplest, system-wide)**
 ```bash
 sudo apt update
 sudo apt install -y python3-requests
 ```
 
-**Option D — pip with override (if you understand the risk)**
+**Option C — pip with override (if you understand the risk)**
 ```bash
-pip install requests --break-system-packages
+pip install -r requirements.txt --break-system-packages
 ```
 
 ### Step 3 — Make the script executable (optional)
